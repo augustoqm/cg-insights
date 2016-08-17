@@ -1,4 +1,4 @@
-# camara-cg
+# CG Insights
 
 Esse repositório foi criado com o objetivo de analisar as ementas que tramitaram na [Câmara Municipal de Campina Grande](https://www.campinagrande.pb.leg.br/) no período de 2009 à 2016 e assim podermos divulgar achados e insights dessas análises. Assim os cidadãos campinenses poderão conhecer melhor os candidatos contribuindo para um voto mais consciente. 
 A base de dados foi extraída do [Sistema de Busca de Documentos](http://187.115.174.90:8080/ScanLexWeb/) utilizado pela Câmara para armazenar e disponibilizar as ementas. 
