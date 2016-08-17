@@ -10,3 +10,5 @@ A base é composta pela tabela principal **ementas**, tabelas auxiliares geradas
 
 ![Camara Data Model](docs/camara_data_model.png)
 
+## Aviso
+Esse repositório e todo o seu conteúdo não tem nenhuma intenção muito menos relação com quaisquer candidato a eleição ou pessoa pública na atualidade. 
