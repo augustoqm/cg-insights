@@ -6,14 +6,6 @@ output:
         variant: markdown_github
 ---
 
-<style>
-  .col2 {
-    columns: 2 450px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 425px; /* chrome, safari */
-    -moz-columns: 2 450px;    /* firefox */
-  }
-</style>
-
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.width = 13)
 
@@ -67,7 +59,6 @@ print(gg)
 
 Para finalizar expomos a "cara" dos governos com as seguintes nuvems de palavras formadas pelos seus temas mais importantes. Removemos o principal tema para ambos os governos, "Serviços Urbanos", com o objetivo de facilitar a comparação dos demais temas.
 
-<div class="col2">
 <center>**Governo Anterior (2009 - 2012)**</center>
 ```{r wordcloud_govern_past, echo=FALSE, fig.width = 8, fig.height = 8}
 past_govern_theme_count <- theme_count %>% 
@@ -85,7 +76,6 @@ current_govern_theme_count <- theme_count %>%
 wordcloud(words = current_govern_theme_count$main_theme, freq = current_govern_theme_count$n,
           colors = brewer.pal(8, "YlGnBu")[-c(1:4)], random.order = F)
 ```
-</div>
 
 Com as nuvens de palavras capturamos mais rapidamente quais os temas mais importantes para cada governo. Concluimos então que depois de "Serviços Urbanos" os 5 temas que mais tiveram ementas aprovadas na Cãmara de Campina Grande do **governo atual** foram: 
 
