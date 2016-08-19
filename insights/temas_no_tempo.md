@@ -14,7 +14,12 @@ Expomos abaixo a quantidade de ementas aprovadas por cada governo durante seus m
 
 O que acaba impactando negativamente no rendimento das ementas. Os meses de Janeiro e Fevereiro são os que de fato mais sofrem esse impacto, Junho e Julho tendem a ter menos ementas mas isso não é regra geral.
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+
+```
+## Auto-disconnecting postgres connection (10375, 6)
+```
+
+![plot of chunk ementas_per_govern](figure/ementas_per_govern-1.png)
 
 Ao agregarmos a quantidade de ementas por ano capturamos outro padrão interessante. O fôlego dos Vereadores parece diminuir com o passar dos anos de mandato. A quantidade de ementas atinge cerca de 50% no último ano em relação ao 1º ano de mandato.
 
