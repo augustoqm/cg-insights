@@ -1,7 +1,9 @@
 ---
 title: "Meu Vereador? Explique-me por favor..."
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
@@ -34,12 +36,6 @@ ementas <- ementas_raw %>%
 approved_ementas <- ementas %>% 
   filter(situation == 'APROVADO')
 
-theme_count <- approved_ementas %>% 
-  count(main_theme) %>% 
-  ungroup() %>% 
-  arrange(desc(n)) %>% 
-  rename(theme_count = n)
-
 ementa_proponents <- approved_ementas$proponents
 approved_ementas$proponents <- NULL
 
@@ -54,6 +50,8 @@ for (i in 1:length(all_proponents)) {
 }
 
 ```
+
+# Meu Vereador? Explique-me por favor...
 
 Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente. E apenas visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que não tem ementa alguma? Qual a razão dessa disparidade? 
 

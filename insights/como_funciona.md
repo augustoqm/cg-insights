@@ -1,36 +1,105 @@
 ---
 title: "Como Funciona a Câmara Municipal de Campina Grande?"
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
 
 
+# Como Funciona a Câmara Municipal de Campina Grande?
+
 ## Dados gerais da 16ª Legislatura (2013 - 2016)
 
 * Poder Legislativo com autonomia adminsitrativa e financeira composto por **23 vereadores**
-
 * Mandato de 4 anos
-
 * Período de trabalho anual:
-
     * 20 de Fevereiro a 20 de Junho
-
     * 20 de Julho a 20 de Dezembro
-
 * Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
 
 ### Vereadores e suas Funções
-<!--html_preserve--><div id="htmlwidget-9387" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9387">{"x":{"data":[["Alexandre do Sindicato","Anderson Maia","Aragão Júnior","Cícero Buchada","Galego do Leite","Hercules Lafite","Ivan Batista","Ivonete Ludgério","João Dantas","Marinaldo Cardoso","Miguel Rodrigues","Murilo Galdino","Napoleão Maracajá","Nelson Gomes","Olimpio Oliveira","Orlandino Farias","Pimentel Filho","Pr. Josimar Henrique","Rodolfo Rodrigues","Rodrigo Ramos","Saulo Noronha","Sargento Régis","Vaninho Aragão"],["PHS","PSB","PTB","PHS","PTN","PSC","PSDB","PSD","PSD","PRB","PSC","PSB","PC do B","PSDB","PMDB","PSC","PSD","PRB","PR","PDT","DEM","PMN","DEM"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Vereador\u003c/th>\n      <th>Partido\u003c/th>\n    \u003c/tr>\n  \u003c/thead>\n\u003c/table>","options":{"paging":false,"searching":false,"info":false,"order":[],"autoWidth":false,"orderClasses":false},"callback":null,"filter":"none"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+
+|Vereador               |Partido |
+|:----------------------|:-------|
+|Alexandre do Sindicato |PHS     |
+|Anderson Maia          |PSB     |
+|Aragão Júnior          |PTB     |
+|Cícero Buchada         |PHS     |
+|Galego do Leite        |PTN     |
+|Hercules Lafite        |PSC     |
+|Ivan Batista           |PSDB    |
+|Ivonete Ludgério       |PSD     |
+|João Dantas            |PSD     |
+|Marinaldo Cardoso      |PRB     |
+|Miguel Rodrigues       |PSC     |
+|Murilo Galdino         |PSB     |
+|Napoleão Maracajá      |PC do B |
+|Nelson Gomes           |PSDB    |
+|Olimpio Oliveira       |PMDB    |
+|Orlandino Farias       |PSC     |
+|Pimentel Filho         |PSD     |
+|Pr. Josimar Henrique   |PRB     |
+|Rodolfo Rodrigues      |PR      |
+|Rodrigo Ramos          |PDT     |
+|Saulo Noronha          |DEM     |
+|Sargento Régis         |PMN     |
+|Vaninho Aragão         |DEM     |
 
 ### Mesa Diretora
-<!--html_preserve--><div id="htmlwidget-3300" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3300">{"x":{"data":[["ANTONIO ALVES PIMENTEL FILHO","ORLANDINO PEREIRA DE FARIAS","JOSÉ MARINALDO CARDOSO","CASSIO MURILO GALDINO DE ARAUJO","IVAN OLIVEIRA BATISTA"],["PRESIDENTE","1º VICE","2º VICE","1º SECRETARIO","2º SECRETARIO"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Vereador\u003c/th>\n      <th>Cargo\u003c/th>\n    \u003c/tr>\n  \u003c/thead>\n\u003c/table>","options":{"paging":false,"searching":false,"info":false,"ordering":false,"order":[],"autoWidth":false,"orderClasses":false},"callback":null,"filter":"none"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+
+|Vereador                        |Cargo         |
+|:-------------------------------|:-------------|
+|ANTONIO ALVES PIMENTEL FILHO    |PRESIDENTE    |
+|ORLANDINO PEREIRA DE FARIAS     |1º VICE       |
+|JOSÉ MARINALDO CARDOSO          |2º VICE       |
+|CASSIO MURILO GALDINO DE ARAUJO |1º SECRETARIO |
+|IVAN OLIVEIRA BATISTA           |2º SECRETARIO |
 
 ### Comissões Técnicas
-<!--html_preserve--><div id="htmlwidget-9787" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9787">{"x":{"data":[["Comissão Constituição, Justiça e Redação","Comissão Constituição, Justiça e Redação","Comissão Constituição, Justiça e Redação","Comissão de Agricultura e Pecuária","Comissão de Agricultura e Pecuária","Comissão de Agricultura e Pecuária","Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática","Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática","Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática","Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente","Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente","Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente","Comissão de Desenvolvimento Econômico, Indústria e Comércio","Comissão de Desenvolvimento Econômico, Indústria e Comércio","Comissão de Desenvolvimento Econômico, Indústria e Comércio","Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público","Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público","Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público","Comissão de Educação, Esporte e Turismo","Comissão de Educação, Esporte e Turismo","Comissão de Educação, Esporte e Turismo","Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle","Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle","Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle","Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido","Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido","Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido","Comissão de Obras, Planejamento, Infraestrutura e Habitação","Comissão de Obras, Planejamento, Infraestrutura e Habitação","Comissão de Obras, Planejamento, Infraestrutura e Habitação","Comissão de Saúde e Bem Estar Social","Comissão de Saúde e Bem Estar Social","Comissão de Saúde e Bem Estar Social","Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas","Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas","Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas","Comissão de Transporte e Mobilidade Urbana","Comissão de Transporte e Mobilidade Urbana","Comissão de Transporte e Mobilidade Urbana"],["Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro","Presidente","Secretário","Membro"],["NELSON GOMES FILHO","RODRIGO RAMOS VICTOR","JOAO CRISOSTOMO MOREIRA DANTAS","JOSEILDO ALVES DOS SANTOS","RODOLFO RODRIGUES","IVONETE ALMEIDA DE ANDRADE LUDGERIO","ANDERSON FILIPI MAIA DE MENEZES","GILVANI ANTONIO ARAGAO","JOSE COSTA ARAGÃO JUNIOR","IVONETE ALMEIDA DE ANDRADE LUDGERIO","CASSIO MURILO GALDINO DE ARAUJO","ALEXANDRE PEREIRA DA SILVA","CASSIO MURILO GALDINO DE ARAUJO","JOSÉ MARINALDO CARDOSO","AFONSO ALEXANDRE REGIS CAVALCANTE","NAPOLEÃO DE FARIAS MARACAJÁ","MIGUEL RODRIGUES DA SILVA","RODRIGO RAMOS VICTOR","MIGUEL RODRIGUES DA SILVA","GILVANI ANTONIO ARAGAO","ANDERSON FILIPI MAIA DE MENEZES","JOSÉ MARINALDO CARDOSO","JOSEILDO ALVES DOS SANTOS","JOAO CRISOSTOMO MOREIRA DANTAS","JOSIMAR HENRIQUE DA SILVA","MIGUEL RODRIGUES DA SILVA","IVAN OLIVEIRA BATISTA","CICERO RODRIGUES DA SILVA","JOSE COSTA ARAGÃO JUNIOR","OLIMPIO OLIVEIRA","JOAO CRISOSTOMO MOREIRA DANTAS","IVAN OLIVEIRA BATISTA","RODRIGO RAMOS VICTOR","ALEXANDRE PEREIRA DA SILVA","OLIMPIO OLIVEIRA","AFONSO ALEXANDRE REGIS CAVALCANTE","AFONSO ALEXANDRE REGIS CAVALCANTE","JOSÉ MARINALDO CARDOSO","ANDERSON FILIPI MAIA DE MENEZES"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Comissão\u003c/th>\n      <th>Cargo\u003c/th>\n      <th>Vereador\u003c/th>\n    \u003c/tr>\n  \u003c/thead>\n\u003c/table>","options":{"paging":false,"searching":false,"info":false,"order":[],"autoWidth":false,"orderClasses":false},"callback":null,"filter":"none"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+
+|Comissão                                                                                  |Cargo      |Vereador                            |
+|:-----------------------------------------------------------------------------------------|:----------|:-----------------------------------|
+|Comissão Constituição, Justiça e Redação                                                  |Presidente |NELSON GOMES FILHO                  |
+|Comissão Constituição, Justiça e Redação                                                  |Secretário |RODRIGO RAMOS VICTOR                |
+|Comissão Constituição, Justiça e Redação                                                  |Membro     |JOAO CRISOSTOMO MOREIRA DANTAS      |
+|Comissão de Agricultura e Pecuária                                                        |Presidente |JOSEILDO ALVES DOS SANTOS           |
+|Comissão de Agricultura e Pecuária                                                        |Secretário |RODOLFO RODRIGUES                   |
+|Comissão de Agricultura e Pecuária                                                        |Membro     |IVONETE ALMEIDA DE ANDRADE LUDGERIO |
+|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Presidente |ANDERSON FILIPI MAIA DE MENEZES     |
+|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Secretário |GILVANI ANTONIO ARAGAO              |
+|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Membro     |JOSE COSTA ARAGÃO JUNIOR            |
+|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Presidente |IVONETE ALMEIDA DE ANDRADE LUDGERIO |
+|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Secretário |CASSIO MURILO GALDINO DE ARAUJO     |
+|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Membro     |ALEXANDRE PEREIRA DA SILVA          |
+|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Presidente |CASSIO MURILO GALDINO DE ARAUJO     |
+|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Secretário |JOSÉ MARINALDO CARDOSO              |
+|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Membro     |AFONSO ALEXANDRE REGIS CAVALCANTE   |
+|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Presidente |NAPOLEÃO DE FARIAS MARACAJÁ         |
+|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Secretário |MIGUEL RODRIGUES DA SILVA           |
+|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Membro     |RODRIGO RAMOS VICTOR                |
+|Comissão de Educação, Esporte e Turismo                                                   |Presidente |MIGUEL RODRIGUES DA SILVA           |
+|Comissão de Educação, Esporte e Turismo                                                   |Secretário |GILVANI ANTONIO ARAGAO              |
+|Comissão de Educação, Esporte e Turismo                                                   |Membro     |ANDERSON FILIPI MAIA DE MENEZES     |
+|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Presidente |JOSÉ MARINALDO CARDOSO              |
+|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Secretário |JOSEILDO ALVES DOS SANTOS           |
+|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Membro     |JOAO CRISOSTOMO MOREIRA DANTAS      |
+|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Presidente |JOSIMAR HENRIQUE DA SILVA           |
+|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Secretário |MIGUEL RODRIGUES DA SILVA           |
+|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Membro     |IVAN OLIVEIRA BATISTA               |
+|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Presidente |CICERO RODRIGUES DA SILVA           |
+|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Secretário |JOSE COSTA ARAGÃO JUNIOR            |
+|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Membro     |OLIMPIO OLIVEIRA                    |
+|Comissão de Saúde e Bem Estar Social                                                      |Presidente |JOAO CRISOSTOMO MOREIRA DANTAS      |
+|Comissão de Saúde e Bem Estar Social                                                      |Secretário |IVAN OLIVEIRA BATISTA               |
+|Comissão de Saúde e Bem Estar Social                                                      |Membro     |RODRIGO RAMOS VICTOR                |
+|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Presidente |ALEXANDRE PEREIRA DA SILVA          |
+|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Secretário |OLIMPIO OLIVEIRA                    |
+|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Membro     |AFONSO ALEXANDRE REGIS CAVALCANTE   |
+|Comissão de Transporte e Mobilidade Urbana                                                |Presidente |AFONSO ALEXANDRE REGIS CAVALCANTE   |
+|Comissão de Transporte e Mobilidade Urbana                                                |Secretário |JOSÉ MARINALDO CARDOSO              |
+|Comissão de Transporte e Mobilidade Urbana                                                |Membro     |ANDERSON FILIPI MAIA DE MENEZES     |
 
 ## Número de vereadores por município e em Campina Grande
 

@@ -1,46 +1,44 @@
 ---
 title: "Como Funciona a Câmara Municipal de Campina Grande?"
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
 ```{r include=FALSE}
 library(readr)
 library(dplyr)
 library(knitr)
-library(DT)
 ```
+
+# Como Funciona a Câmara Municipal de Campina Grande?
 
 ## Dados gerais da 16ª Legislatura (2013 - 2016)
 
 * Poder Legislativo com autonomia adminsitrativa e financeira composto por **23 vereadores**
-
 * Mandato de 4 anos
-
 * Período de trabalho anual:
-
     * 20 de Fevereiro a 20 de Junho
-
     * 20 de Julho a 20 de Dezembro
-
 * Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
 
 ### Vereadores e suas Funções
 ```{r, echo=FALSE}
 vereadores_partidos <- read_csv("../docs/legislatura_16_vereador_partido.csv")
-datatable(vereadores_partidos, options = list(paging = F, searching = F, info = F), rownames = F)
+kable(vereadores_partidos)
 ```
 
 ### Mesa Diretora
 ```{r, echo=FALSE}
 mesa_diretora <- read_csv("../docs/legislatura_16_mesa_diretora.csv")
-datatable(mesa_diretora, options = list(paging = F, searching = F, info = F, ordering = F), rownames = F)
+kable(mesa_diretora)
 ```
 
 ### Comissões Técnicas
 ```{r, echo=FALSE}
 comissoes <- read_csv("../docs/legislatura_16_comissoes_tecnicas.csv")
-datatable(comissoes, options = list(paging = F, searching = F, info = F), rownames = F)
+kable(comissoes)
 ```
 
 ## Número de vereadores por município e em Campina Grande

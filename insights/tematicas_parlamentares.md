@@ -1,7 +1,9 @@
 ---
 title: "Temáticas Parlamentares"
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
 <style>
@@ -13,6 +15,8 @@ output: html_document
 </style>
 
 
+
+# Temáticas Parlamentares
 
 Nosso objetivo com essa análise é chamar a atenção para os principais temas que tem sido discutidos na nossa Câmara Municipal. Faremos isso de várias formas, inicialmente mostramos que o governo atual (2013 - 2016) tramitou e aprovou mais ementas do que o governo anterior (2009 - 2012), o que é algo esperado já que o anterior era composto por apenas 16 vereadores e o atual por 23. 
 
@@ -29,13 +33,6 @@ Para finalizar expomos a "cara" dos governos com as seguintes nuvems de palavras
 ![plot of chunk wordcloud_govern_past](figure/wordcloud_govern_past-1.png)
 
 <center>**Governo Atual (2013 - 2016)**</center>
-
-```
-## Warning in wordcloud(words = current_govern_theme_count$main_theme, freq =
-## current_govern_theme_count$n, : SEGURANÇA PÚBLICA could not be fit on page.
-## It will not be plotted.
-```
-
 ![plot of chunk wordcloud_govern_cur](figure/wordcloud_govern_cur-1.png)
 </div>
 

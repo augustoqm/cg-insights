@@ -1,7 +1,9 @@
 ---
 title: "O tempo passa mas os temas se repetem..."
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
@@ -35,8 +37,10 @@ theme_count <- approved_ementas %>%
   ungroup() %>%
   arrange(desc(n)) %>%
   rename(theme_count = n)
-
 ```
+
+# O tempo passa mas os temas se repetem...
+
 Nessa análise buscamos capturar os padrões temporais das ementas durante os mandatos de cada governo.
 
 Expomos abaixo a quantidade de ementas aprovadas por cada governo durante seus mandatos. Um ponto interessante a ressaltar é o período de férias dos Vereadores. Os vereadores possuem dois períodos de férias anuais:

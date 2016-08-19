@@ -1,9 +1,12 @@
 ---
 title: "Quanto ganham os Vereadores?"
 date: "19 de Agosto de 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
+# Quanto ganham os Vereadores?
 Para sabermos quanto cada vereador de de Campina Grande recebe, fomos à constituição e encontramos a
 [Emenda Nº 25](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc25.htm) da qual extraimos o inciso VI do Artigo 29 (abaixo) e percebemos que tudo depende de quanto ganham os Deputados Estaduais.
 
@@ -99,7 +102,7 @@ E todos foram felizes para sempre!
 
 Analisando os dados dos gastos públicos do estado pelo [Sistema Sagres](https://sagres.tce.pb.gov.br) do Tribunal de Contas do Estado (TCE), encontramos os valores reais mensais do gasto com pessoal na Câmara de CG.  Vemos na impressão de tela abaixo que em Janeiro de 2015 foram gastos quase 1 Milhão de Reais com pessoal na Câmara, sendo mais de 250 mil apenas com os 23 vereadores. Imaginemos a soma de todas as Câmaras do estado?!
 
-![Pagamento Pessoal da Câmara CG em Janeiro de 2015](../docs/sagres_cg_camara_pessoal_2015_01.png)
+![Pagamento Pessoal da Câmara CG em Janeiro de 2015](figure/sagres_cg_camara_pessoal_2015_01.png)
 
 De fato vivemos em país cheio de riquezas, não só naturais e humanas mas também financeiras! O que falta é garantirmos que esse dinheiro seja bem empregado e esse é o nosso principal objetivo como cidadão e cientista de dados!
 

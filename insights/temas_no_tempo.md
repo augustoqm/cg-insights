@@ -1,9 +1,14 @@
 ---
 title: "O tempo passa mas os temas se repetem..."
 date: "19 de Agosto, 2016"
-output: html_document
+output: 
+    md_document:
+        variant: markdown_github
 ---
 
+
+
+# O tempo passa mas os temas se repetem...
 
 Nessa análise buscamos capturar os padrões temporais das ementas durante os mandatos de cada governo.
 
@@ -13,11 +18,6 @@ Expomos abaixo a quantidade de ementas aprovadas por cada governo durante seus m
   * 21 de Junho a 19 de Julho (1 mês de férias)
 
 O que acaba impactando negativamente no rendimento das ementas. Os meses de Janeiro e Fevereiro são os que de fato mais sofrem esse impacto, Junho e Julho tendem a ter menos ementas mas isso não é regra geral.
-
-
-```
-## Auto-disconnecting postgres connection (10375, 6)
-```
 
 ![plot of chunk ementas_per_govern](figure/ementas_per_govern-1.png)
 
