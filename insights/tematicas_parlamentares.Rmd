@@ -59,7 +59,8 @@ print(gg)
 
 Para finalizar expomos a "cara" dos governos com as seguintes nuvems de palavras formadas pelos seus temas mais importantes. Removemos o principal tema para ambos os governos, "Serviços Urbanos", com o objetivo de facilitar a comparação dos demais temas.
 
-<center>**Governo Anterior (2009 - 2012)**</center>
+**Governo Anterior (2009 - 2012)**
+
 ```{r wordcloud_govern_past, echo=FALSE, fig.width = 8, fig.height = 8}
 past_govern_theme_count <- theme_count %>% 
   filter(govern == 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')
@@ -68,7 +69,8 @@ wordcloud(words = past_govern_theme_count$main_theme, freq = past_govern_theme_c
           colors = brewer.pal(8, "YlOrRd")[-c(1:4)], random.order = F)
 ```
 
-<center>**Governo Atual (2013 - 2016)**</center>
+**Governo Atual (2013 - 2016)**
+
 ```{r wordcloud_govern_cur, echo=FALSE, fig.width = 8, fig.height = 8}
 current_govern_theme_count <- theme_count %>% 
   filter(govern != 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')

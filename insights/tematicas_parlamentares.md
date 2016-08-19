@@ -20,10 +20,12 @@ Apesar do maior número não podemos tomar conclusões precipitadas. Estamos ana
 
 Para finalizar expomos a "cara" dos governos com as seguintes nuvems de palavras formadas pelos seus temas mais importantes. Removemos o principal tema para ambos os governos, "Serviços Urbanos", com o objetivo de facilitar a comparação dos demais temas.
 
-<center>**Governo Anterior (2009 - 2012)**</center>
+**Governo Anterior (2009 - 2012)**
+
 ![plot of chunk wordcloud_govern_past](figure/wordcloud_govern_past-1.png)
 
-<center>**Governo Atual (2013 - 2016)**</center>
+**Governo Atual (2013 - 2016)**
+
 ![plot of chunk wordcloud_govern_cur](figure/wordcloud_govern_cur-1.png)
 
 Com as nuvens de palavras capturamos mais rapidamente quais os temas mais importantes para cada governo. Concluimos então que depois de "Serviços Urbanos" os 5 temas que mais tiveram ementas aprovadas na Cãmara de Campina Grande do **governo atual** foram: 
