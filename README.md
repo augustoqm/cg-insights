@@ -30,11 +30,11 @@ As tabelas do TSE tem suas próprias descrições disponibilizadas pelo Reposit�
 
 Listamos abaixo exemplos de insights encontrados apenas com a tabela *ementas* que dão uma ideia do valor dessa base de dados.
 
-* [Temáticas Parlamentares](insights/tematicas_parlamentares.html)
+* [Temáticas Parlamentares](insights/tematicas_parlamentares.md)
 
-* [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.html)
+* [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md)
 
-* [Meu Vereador? Me explique por favor...](insights/vereador_expliquese.html)
+* [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md)
 
 ## Como funciona?
 
@@ -46,7 +46,7 @@ A cidade de Barcelona - RN também publicou um FAQ bem completo sobre o [Tema Ve
 
 **E a Câmara Municipal de Campina Grande?**
 
-Montamos então a página [Como funciona a Câmara de Campina Grande?](insights/como_funciona_cg.html) com detalhes importantes sobre a 16ª Legislatura (2012 - 2016). E apesar do foco desse projeto não serem análises financeiras, realizamos uma pequena inserção nesse contexto para responder a seguinte pergunta: [Quanto ganham os vereadores de Campina Grande?](insights/quanto_ganham.html).
+Montamos então a página [Como funciona a Câmara de Campina Grande?](insights/como_funciona_cg.md) com detalhes importantes sobre a 16ª Legislatura (2012 - 2016). E apesar do foco desse projeto não serem análises financeiras, realizamos uma pequena inserção nesse contexto para responder a seguinte pergunta: [Quanto ganham os vereadores de Campina Grande?](insights/quanto_ganham.md).
 
 ## Aviso
 Esse repositório e todo o seu conteúdo não tem nenhuma intenção muito menos relação com quaisquer candidato a eleição ou pessoa pública.
