@@ -1,0 +1,80 @@
+---
+title: "Analise Temporal das Ementas 2"
+date: "19 de Agosto, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width = 14)
+
+library(readr)
+library(dplyr)
+library(magrittr)
+library(RPostgreSQL)
+library(ggplot2)
+library(lubridate)
+library(stringr)
+
+theme_set(theme_bw(16))
+
+camara_db <- src_postgres(dbname = "camara_db", user = "augusto", password = "postgres")
+
+ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>% 
+  filter(published_date >= "2009-01-01") %>% 
+  mutate(published_month = date_trunc('month', published_date))
+
+commissoes_raw <- tbl(camara_db, sql("SELECT * FROM comissoes_tecnicas"))
+
+ementas <- ementas_raw %>%
+  select(published_date, published_month, main_theme, situation, proponents) %>%
+  collect() %>% 
+  mutate(govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)"),
+         published_year = year(published_date))
+
+approved_ementas <- ementas %>% 
+  filter(situation == 'APROVADO')
+
+theme_count <- approved_ementas %>% 
+  count(main_theme) %>% 
+  ungroup() %>% 
+  arrange(desc(n)) %>% 
+  rename(theme_count = n)
+
+ementa_proponents <- approved_ementas$proponents
+approved_ementas$proponents <- NULL
+
+ementa_prop_final <- data_frame()
+all_proponents <- str_split(ementa_proponents, ",", -1)
+for (i in 1:length(all_proponents)) {
+  prop_vec <- all_proponents[[i]]
+  row <- approved_ementas[i,]
+  row <- row[rep(1, length(prop_vec)),]
+  row$proponent <- prop_vec
+  ementa_prop_final <- ementa_prop_final %>% bind_rows(row)
+}
+
+```
+
+Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente. E apenas visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que não tem ementa alguma? Qual a razão dessa disparidade? 
+
+```{r proponent_over_time, echo = FALSE, fig.height=40}
+
+ggplot(ementa_prop_final %>% filter(govern != "Atual (2013 - 2016)"), 
+                     aes(x = published_month, fill = proponent)) +
+  geom_bar() +
+  facet_grid(proponent~published_year, scales = "free_x") +
+  scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
+  labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
+  ggtitle("Governo Anterior (2009 - 2012)") +
+  theme(legend.position = "none", strip.text.y = element_text(angle = 0))
+
+ggplot(ementa_prop_final %>% filter(govern == "Atual (2013 - 2016)"), 
+                     aes(x = published_month, fill = proponent)) +
+  geom_bar() +
+  facet_grid(proponent~published_year, scales = "free_x") +
+  scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
+  labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
+  ggtitle("Governo Atual (2013 - 2016)") +
+  theme(legend.position = "none", strip.text.y = element_text(angle = 0))
+```
+
