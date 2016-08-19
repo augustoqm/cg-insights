@@ -6,9 +6,9 @@ output:
         variant: markdown_github
 ---
 
-
-
 # Temáticas Parlamentares
+
+
 
 Nosso objetivo com essa análise é chamar a atenção para os principais temas que tem sido discutidos na nossa Câmara Municipal. Faremos isso de várias formas, inicialmente mostramos que o governo atual (2013 - 2016) tramitou e aprovou mais ementas do que o governo anterior (2009 - 2012), o que é algo esperado já que o anterior era composto por apenas 16 vereadores e o atual por 23. 
 

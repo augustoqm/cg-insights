@@ -6,9 +6,9 @@ output:
         variant: markdown_github
 ---
 
-
-
 # Como Funciona a Câmara Municipal de Campina Grande?
+
+
 
 ## Dados gerais da 16ª Legislatura (2013 - 2016)
 

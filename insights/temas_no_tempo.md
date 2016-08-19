@@ -6,16 +6,16 @@ output:
         variant: markdown_github
 ---
 
-
-
 # O tempo passa mas os temas se repetem...
+
+
 
 Nessa análise buscamos capturar os padrões temporais das ementas durante os mandatos de cada governo.
 
 Expomos abaixo a quantidade de ementas aprovadas por cada governo durante seus mandatos. Um ponto interessante a ressaltar é o período de férias dos Vereadores. Os vereadores possuem dois períodos de férias anuais:
 
-  * 21 de Dezembro a 19 de Fevereiro (2 meses de férias)
-  * 21 de Junho a 19 de Julho (1 mês de férias)
+* 21 de Dezembro a 19 de Fevereiro (2 meses de férias)
+* 21 de Junho a 19 de Julho (1 mês de férias)
 
 O que acaba impactando negativamente no rendimento das ementas. Os meses de Janeiro e Fevereiro são os que de fato mais sofrem esse impacto, Junho e Julho tendem a ter menos ementas mas isso não é regra geral.
 

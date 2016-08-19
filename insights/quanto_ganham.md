@@ -7,6 +7,7 @@ output:
 ---
 
 # Quanto ganham os Vereadores?
+
 Para sabermos quanto cada vereador de de Campina Grande recebe, fomos à constituição e encontramos a
 [Emenda Nº 25](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc25.htm) da qual extraimos o inciso VI do Artigo 29 (abaixo) e percebemos que tudo depende de quanto ganham os Deputados Estaduais.
 
