@@ -16,10 +16,11 @@ library(magrittr)
 library(RPostgreSQL)
 library(ggplot2)
 library(lubridate)
+source("0_utils.R")
 
 theme_set(theme_bw(16))
 
-camara_db <- src_postgres(dbname = "camara_db", user = "augusto", password = "postgres")
+camara_db <- StartCamaraDB()
 
 ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>%
   filter(published_date >= "2009-01-01") %>%
