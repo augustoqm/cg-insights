@@ -10,8 +10,9 @@ Abaixo listamos todos os insights do repositório.
 ### Aprofundando-se 
 
 1. [Temáticas Parlamentares](tematicas_parlamentares.md)
-2. [O tempo passa mas os temas se repetem...](temas_no_tempo.md)
-3. [Meu Vereador? Explique-me por favor...](vereador_expliqueme.md)
-4. [Meu Vereador? Qual a sua especialidade?*](vereador_qualespecialidade.html)
+2. [O que significa Moção? Exemplo, por favor...](temas_emdetalhes.md)
+3. [O tempo passa mas os temas se repetem...](temas_no_tempo.md)
+4. [Meu Vereador? Explique-me por favor...](vereador_expliqueme.md)
+5. [Meu Vereador? Qual a sua especialidade?*](vereador_qualespecialidade.html)
 
 As páginas com * possuem recursos interativos não visualizáveis diretamente aqui no site. Para visualizá-los faça o download (clicando no nome *Download* dentro da página) e abra o arquivo no Browser normalmente.
