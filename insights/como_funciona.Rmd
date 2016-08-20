@@ -1,14 +1,11 @@
 ---
 title: "Como Funciona a Câmara Municipal de Campina Grande?"
 date: "19 de Agosto, 2016"
-output: 
-    md_document:
-        variant: markdown_github
+output: github_document
 ---
 
-# Como Funciona a Câmara Municipal de Campina Grande?
-
 ```{r include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(dplyr)
 library(knitr)
@@ -24,19 +21,19 @@ library(knitr)
 * Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
 
 ### Vereadores e suas Funções
-```{r, echo=FALSE}
+```{r}
 vereadores_partidos <- read_csv("../docs/legislatura_16_vereador_partido.csv")
 kable(vereadores_partidos)
 ```
 
 ### Mesa Diretora
-```{r, echo=FALSE}
+```{r}
 mesa_diretora <- read_csv("../docs/legislatura_16_mesa_diretora.csv")
 kable(mesa_diretora)
 ```
 
 ### Comissões Técnicas
-```{r, echo=FALSE}
+```{r}
 comissoes <- read_csv("../docs/legislatura_16_comissoes_tecnicas.csv")
 kable(comissoes)
 ```
@@ -90,6 +87,6 @@ E foi modificado para o seguinte:
 
 A População de Campina Grande no Censo de 2000 foi de **355.331 habitantes**, no entanto, ao repetir-se a contagem no Censo de 2010 esse número passou para **385.213 habitantes**.
 
-Em 2008 a câmara decidira que teria 16 vagas de acordo com o ANTIGO inciso IV da constituição. Já em 2011 a câmara valendo-se da nova emenda promulgada em 2009 e do novo Censo de 2010 aumentou esse número para 23 vagas.
+Em 2008 a câmara decidira que teria **16 vagas** de acordo com o ANTIGO inciso IV da constituição. Já em 2011 a câmara valendo-se da NOVA emenda promulgada em 2009 e do novo Censo de 2010 aumentou esse número para **23 vagas**.
 
 ---

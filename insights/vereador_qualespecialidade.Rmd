@@ -1,0 +1,108 @@
+---
+title: "Meu Vereador, qual a sua especialidade?"
+output: 
+    flexdashboard::flex_dashboard:
+        social: menu
+        theme: yeti
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(flexdashboard)
+library(d3heatmap)
+
+library(readr)
+library(dplyr)
+library(reshape2)
+library(magrittr)
+library(RPostgreSQL)
+library(stringr)
+library(lubridate)
+source("0_utils.R")
+
+camara_db <- StartCamaraDB()
+
+ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>% 
+    filter(published_date >= "2009-01-01") %>% 
+    mutate(published_month = date_trunc('month', published_date))
+
+commissoes_raw <- tbl(camara_db, sql("SELECT * FROM comissoes_tecnicas"))
+
+ementas <- ementas_raw %>%
+    select(published_date, published_month, main_theme, situation, proponents) %>%
+    collect() %>% 
+    mutate(govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)"),
+           published_year = year(published_date))
+
+approved_ementas <- ementas %>% 
+    filter(situation == 'APROVADO')
+
+theme_count <- approved_ementas %>% 
+    count(main_theme, govern) %>% 
+    ungroup() %>% 
+    arrange(desc(n)) %>% 
+    filter(n > 10)
+
+approved_ementas_by_prop <- approved_ementas
+ementa_proponents <- approved_ementas_by_prop$proponents
+approved_ementas_by_prop$proponents <- NULL
+
+all_proponents <- str_split(ementa_proponents, ",", -1)
+final_prop_rows <- data_frame()
+for (i in 1:length(all_proponents)) {
+    prop_vec <- all_proponents[[i]]
+    prop_rows <- data_frame(proponent = prop_vec,
+                            row = rep(i, length(prop_vec)))
+    final_prop_rows <- bind_rows(final_prop_rows, prop_rows)
+}
+final_prop_rows %<>% filter(proponent != "")
+
+approved_ementas_by_prop %<>% 
+    mutate(row = 1:nrow(.)) %>% 
+    inner_join(final_prop_rows, by = "row")
+
+ementa_filtered <- approved_ementas_by_prop %>% 
+    semi_join(theme_count %>% filter(govern == "Atual (2013 - 2016)") %>% filter(n > n[16]), by = "main_theme")
+
+prop_theme_matrix_cur <- ementa_filtered %>% 
+    filter(govern == "Atual (2013 - 2016)") %>% 
+        count(proponent, main_theme) %>% 
+    acast(main_theme ~ proponent, value.var = "n", fill = 0)
+
+prop_theme_matrix_prev <- ementa_filtered %>% 
+    filter(govern != "Atual (2013 - 2016)") %>% 
+        count(proponent, main_theme) %>% 
+    acast(main_theme ~ proponent, value.var = "n", fill = 0)
+```
+
+Column {.tabset}
+--------------------------------------
+
+### Governo Atual (2013 - 2016)
+
+```{r themes_cur_govern}
+d3heatmap(prop_theme_matrix_cur, scale = "column", colors = "RdYlGn", xaxis_height = 125, yaxis_width = 200, k_col = 4, dendrogram = "col", cexRow = .85)
+```
+
+### Governo Anterior (2009 - 2012)
+
+```{r theme_prev_govern}
+d3heatmap(prop_theme_matrix_prev, scale = "column", colors = "RdYlGn", xaxis_height = 125, yaxis_width = 200, k_col = 4, dendrogram = "col", cexRow = .85)
+```
+
+Column {data-width=175}
+-------------------------------------
+### Sobre 
+
+Com essa gráfico interativo caputamos tanto as especialidades temáticas de cada vereador, nas cores da matriz, como as semelhanças temáticas entre eles(as), nas linhas coloridas do topo. 
+
+No topo vemos que as linhas hierárquicas estão coloridas, cada cor representa um grupo, ou seja, os vereadores com mesma cor tem perfis temáticos similares.
+
+As cores vão do vermelho, quando o tema não é do interesse do vereador, passando pelo branco, temas de mediano valor, até o verde, quando o tema é muito importante.
+
+**Como interagir?**
+
+Clique no nome do vereador e do tema ele irá selecionar a linha e a coluna.
+
+Clique e arraste o mouse para selecionar a região da matriz colorida. E para voltar ao início clique uma vez em qualquer retângulo.

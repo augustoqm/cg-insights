@@ -1,107 +1,101 @@
----
-title: "Como Funciona a Câmara Municipal de Campina Grande?"
-date: "19 de Agosto, 2016"
-output: 
-    md_document:
-        variant: markdown_github
----
+Como Funciona a Câmara Municipal de Campina Grande?
+================
+19 de Agosto, 2016
 
-# Como Funciona a Câmara Municipal de Campina Grande?
+Dados gerais da 16ª Legislatura (2013 - 2016)
+---------------------------------------------
 
-
-
-## Dados gerais da 16ª Legislatura (2013 - 2016)
-
-* Poder Legislativo com autonomia adminsitrativa e financeira composto por **23 vereadores**
-* Mandato de 4 anos
-* Período de trabalho anual:
-    * 20 de Fevereiro a 20 de Junho
-    * 20 de Julho a 20 de Dezembro
-* Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
+-   Poder Legislativo com autonomia adminsitrativa e financeira composto por **23 vereadores**
+-   Mandato de 4 anos
+-   Período de trabalho anual:
+    -   20 de Fevereiro a 20 de Junho
+    -   20 de Julho a 20 de Dezembro
+-   Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
 
 ### Vereadores e suas Funções
 
-|Vereador               |Partido |
-|:----------------------|:-------|
-|Alexandre do Sindicato |PHS     |
-|Anderson Maia          |PSB     |
-|Aragão Júnior          |PTB     |
-|Cícero Buchada         |PHS     |
-|Galego do Leite        |PTN     |
-|Hercules Lafite        |PSC     |
-|Ivan Batista           |PSDB    |
-|Ivonete Ludgério       |PSD     |
-|João Dantas            |PSD     |
-|Marinaldo Cardoso      |PRB     |
-|Miguel Rodrigues       |PSC     |
-|Murilo Galdino         |PSB     |
-|Napoleão Maracajá      |PC do B |
-|Nelson Gomes           |PSDB    |
-|Olimpio Oliveira       |PMDB    |
-|Orlandino Farias       |PSC     |
-|Pimentel Filho         |PSD     |
-|Pr. Josimar Henrique   |PRB     |
-|Rodolfo Rodrigues      |PR      |
-|Rodrigo Ramos          |PDT     |
-|Saulo Noronha          |DEM     |
-|Sargento Régis         |PMN     |
-|Vaninho Aragão         |DEM     |
+| Vereador               | Partido |
+|:-----------------------|:--------|
+| Alexandre do Sindicato | PHS     |
+| Anderson Maia          | PSB     |
+| Aragão Júnior          | PTB     |
+| Cícero Buchada         | PHS     |
+| Galego do Leite        | PTN     |
+| Hercules Lafite        | PSC     |
+| Ivan Batista           | PSDB    |
+| Ivonete Ludgério       | PSD     |
+| João Dantas            | PSD     |
+| Marinaldo Cardoso      | PRB     |
+| Miguel Rodrigues       | PSC     |
+| Murilo Galdino         | PSB     |
+| Napoleão Maracajá      | PC do B |
+| Nelson Gomes           | PSDB    |
+| Olimpio Oliveira       | PMDB    |
+| Orlandino Farias       | PSC     |
+| Pimentel Filho         | PSD     |
+| Pr. Josimar Henrique   | PRB     |
+| Rodolfo Rodrigues      | PR      |
+| Rodrigo Ramos          | PDT     |
+| Saulo Noronha          | DEM     |
+| Sargento Régis         | PMN     |
+| Vaninho Aragão         | DEM     |
 
 ### Mesa Diretora
 
-|Vereador                        |Cargo         |
-|:-------------------------------|:-------------|
-|ANTONIO ALVES PIMENTEL FILHO    |PRESIDENTE    |
-|ORLANDINO PEREIRA DE FARIAS     |1º VICE       |
-|JOSÉ MARINALDO CARDOSO          |2º VICE       |
-|CASSIO MURILO GALDINO DE ARAUJO |1º SECRETARIO |
-|IVAN OLIVEIRA BATISTA           |2º SECRETARIO |
+| Vereador                        | Cargo         |
+|:--------------------------------|:--------------|
+| ANTONIO ALVES PIMENTEL FILHO    | PRESIDENTE    |
+| ORLANDINO PEREIRA DE FARIAS     | 1º VICE       |
+| JOSÉ MARINALDO CARDOSO          | 2º VICE       |
+| CASSIO MURILO GALDINO DE ARAUJO | 1º SECRETARIO |
+| IVAN OLIVEIRA BATISTA           | 2º SECRETARIO |
 
 ### Comissões Técnicas
 
-|Comissão                                                                                  |Cargo      |Vereador                            |
-|:-----------------------------------------------------------------------------------------|:----------|:-----------------------------------|
-|Comissão Constituição, Justiça e Redação                                                  |Presidente |NELSON GOMES FILHO                  |
-|Comissão Constituição, Justiça e Redação                                                  |Secretário |RODRIGO RAMOS VICTOR                |
-|Comissão Constituição, Justiça e Redação                                                  |Membro     |JOAO CRISOSTOMO MOREIRA DANTAS      |
-|Comissão de Agricultura e Pecuária                                                        |Presidente |JOSEILDO ALVES DOS SANTOS           |
-|Comissão de Agricultura e Pecuária                                                        |Secretário |RODOLFO RODRIGUES                   |
-|Comissão de Agricultura e Pecuária                                                        |Membro     |IVONETE ALMEIDA DE ANDRADE LUDGERIO |
-|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Presidente |ANDERSON FILIPI MAIA DE MENEZES     |
-|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Secretário |GILVANI ANTONIO ARAGAO              |
-|Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |Membro     |JOSE COSTA ARAGÃO JUNIOR            |
-|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Presidente |IVONETE ALMEIDA DE ANDRADE LUDGERIO |
-|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Secretário |CASSIO MURILO GALDINO DE ARAUJO     |
-|Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |Membro     |ALEXANDRE PEREIRA DA SILVA          |
-|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Presidente |CASSIO MURILO GALDINO DE ARAUJO     |
-|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Secretário |JOSÉ MARINALDO CARDOSO              |
-|Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |Membro     |AFONSO ALEXANDRE REGIS CAVALCANTE   |
-|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Presidente |NAPOLEÃO DE FARIAS MARACAJÁ         |
-|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Secretário |MIGUEL RODRIGUES DA SILVA           |
-|Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |Membro     |RODRIGO RAMOS VICTOR                |
-|Comissão de Educação, Esporte e Turismo                                                   |Presidente |MIGUEL RODRIGUES DA SILVA           |
-|Comissão de Educação, Esporte e Turismo                                                   |Secretário |GILVANI ANTONIO ARAGAO              |
-|Comissão de Educação, Esporte e Turismo                                                   |Membro     |ANDERSON FILIPI MAIA DE MENEZES     |
-|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Presidente |JOSÉ MARINALDO CARDOSO              |
-|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Secretário |JOSEILDO ALVES DOS SANTOS           |
-|Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |Membro     |JOAO CRISOSTOMO MOREIRA DANTAS      |
-|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Presidente |JOSIMAR HENRIQUE DA SILVA           |
-|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Secretário |MIGUEL RODRIGUES DA SILVA           |
-|Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |Membro     |IVAN OLIVEIRA BATISTA               |
-|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Presidente |CICERO RODRIGUES DA SILVA           |
-|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Secretário |JOSE COSTA ARAGÃO JUNIOR            |
-|Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |Membro     |OLIMPIO OLIVEIRA                    |
-|Comissão de Saúde e Bem Estar Social                                                      |Presidente |JOAO CRISOSTOMO MOREIRA DANTAS      |
-|Comissão de Saúde e Bem Estar Social                                                      |Secretário |IVAN OLIVEIRA BATISTA               |
-|Comissão de Saúde e Bem Estar Social                                                      |Membro     |RODRIGO RAMOS VICTOR                |
-|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Presidente |ALEXANDRE PEREIRA DA SILVA          |
-|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Secretário |OLIMPIO OLIVEIRA                    |
-|Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |Membro     |AFONSO ALEXANDRE REGIS CAVALCANTE   |
-|Comissão de Transporte e Mobilidade Urbana                                                |Presidente |AFONSO ALEXANDRE REGIS CAVALCANTE   |
-|Comissão de Transporte e Mobilidade Urbana                                                |Secretário |JOSÉ MARINALDO CARDOSO              |
-|Comissão de Transporte e Mobilidade Urbana                                                |Membro     |ANDERSON FILIPI MAIA DE MENEZES     |
+| Comissão                                                                                  | Cargo      | Vereador                            |
+|:------------------------------------------------------------------------------------------|:-----------|:------------------------------------|
+| Comissão Constituição, Justiça e Redação                                                  | Presidente | NELSON GOMES FILHO                  |
+| Comissão Constituição, Justiça e Redação                                                  | Secretário | RODRIGO RAMOS VICTOR                |
+| Comissão Constituição, Justiça e Redação                                                  | Membro     | JOAO CRISOSTOMO MOREIRA DANTAS      |
+| Comissão de Agricultura e Pecuária                                                        | Presidente | JOSEILDO ALVES DOS SANTOS           |
+| Comissão de Agricultura e Pecuária                                                        | Secretário | RODOLFO RODRIGUES                   |
+| Comissão de Agricultura e Pecuária                                                        | Membro     | IVONETE ALMEIDA DE ANDRADE LUDGERIO |
+| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Presidente | ANDERSON FILIPI MAIA DE MENEZES     |
+| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Secretário | GILVANI ANTONIO ARAGAO              |
+| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Membro     | JOSE COSTA ARAGÃO JUNIOR            |
+| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Presidente | IVONETE ALMEIDA DE ANDRADE LUDGERIO |
+| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Secretário | CASSIO MURILO GALDINO DE ARAUJO     |
+| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Membro     | ALEXANDRE PEREIRA DA SILVA          |
+| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Presidente | CASSIO MURILO GALDINO DE ARAUJO     |
+| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Secretário | JOSÉ MARINALDO CARDOSO              |
+| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Membro     | AFONSO ALEXANDRE REGIS CAVALCANTE   |
+| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Presidente | NAPOLEÃO DE FARIAS MARACAJÁ         |
+| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Secretário | MIGUEL RODRIGUES DA SILVA           |
+| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Membro     | RODRIGO RAMOS VICTOR                |
+| Comissão de Educação, Esporte e Turismo                                                   | Presidente | MIGUEL RODRIGUES DA SILVA           |
+| Comissão de Educação, Esporte e Turismo                                                   | Secretário | GILVANI ANTONIO ARAGAO              |
+| Comissão de Educação, Esporte e Turismo                                                   | Membro     | ANDERSON FILIPI MAIA DE MENEZES     |
+| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Presidente | JOSÉ MARINALDO CARDOSO              |
+| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Secretário | JOSEILDO ALVES DOS SANTOS           |
+| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Membro     | JOAO CRISOSTOMO MOREIRA DANTAS      |
+| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Presidente | JOSIMAR HENRIQUE DA SILVA           |
+| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Secretário | MIGUEL RODRIGUES DA SILVA           |
+| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Membro     | IVAN OLIVEIRA BATISTA               |
+| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Presidente | CICERO RODRIGUES DA SILVA           |
+| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Secretário | JOSE COSTA ARAGÃO JUNIOR            |
+| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Membro     | OLIMPIO OLIVEIRA                    |
+| Comissão de Saúde e Bem Estar Social                                                      | Presidente | JOAO CRISOSTOMO MOREIRA DANTAS      |
+| Comissão de Saúde e Bem Estar Social                                                      | Secretário | IVAN OLIVEIRA BATISTA               |
+| Comissão de Saúde e Bem Estar Social                                                      | Membro     | RODRIGO RAMOS VICTOR                |
+| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Presidente | ALEXANDRE PEREIRA DA SILVA          |
+| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Secretário | OLIMPIO OLIVEIRA                    |
+| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Membro     | AFONSO ALEXANDRE REGIS CAVALCANTE   |
+| Comissão de Transporte e Mobilidade Urbana                                                | Presidente | AFONSO ALEXANDRE REGIS CAVALCANTE   |
+| Comissão de Transporte e Mobilidade Urbana                                                | Secretário | JOSÉ MARINALDO CARDOSO              |
+| Comissão de Transporte e Mobilidade Urbana                                                | Membro     | ANDERSON FILIPI MAIA DE MENEZES     |
 
-## Número de vereadores por município e em Campina Grande
+Número de vereadores por município e em Campina Grande
+------------------------------------------------------
 
 A Câmara CG realizou um aumento sensível no número de vereadores quando comparamos a 15ª com a 16ª Legislatura, passando de 16 para 23 vereadores. A explicação para a mudança na [EMENDA CONSTITUCIONAL Nº 58, DE 23 DE SETEMBRO DE 2009](http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc58.htm) pode ser encontrada no documento [FIXAÇÃO DO NÚMERO DE VEREADORES PELOS MUNICÍPIOS](http://www2.camara.leg.br/documentos-e-pesquisa/publicacoes/estnottec/areas-da-conle/tema6/2010_10930.pdf) disponibilizado pela Câmara Federal:
 
@@ -150,6 +144,6 @@ E foi modificado para o seguinte:
 
 A População de Campina Grande no Censo de 2000 foi de **355.331 habitantes**, no entanto, ao repetir-se a contagem no Censo de 2010 esse número passou para **385.213 habitantes**.
 
-Em 2008 a câmara decidira que teria 16 vagas de acordo com o ANTIGO inciso IV da constituição. Já em 2011 a câmara valendo-se da nova emenda promulgada em 2009 e do novo Censo de 2010 aumentou esse número para 23 vagas.
+Em 2008 a câmara decidira que teria **16 vagas** de acordo com o ANTIGO inciso IV da constituição. Já em 2011 a câmara valendo-se da NOVA emenda promulgada em 2009 e do novo Censo de 2010 aumentou esse número para **23 vagas**.
 
----
+------------------------------------------------------------------------

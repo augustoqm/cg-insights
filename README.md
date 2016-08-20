@@ -31,9 +31,7 @@ As tabelas do TSE tem suas próprias descrições disponibilizadas pelo Reposit�
 Listamos abaixo exemplos de insights encontrados apenas com a tabela *ementas* que dão uma ideia do valor dessa base de dados.
 
 * [Temáticas Parlamentares](insights/tematicas_parlamentares.md)
-
 * [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md)
-
 * [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md)
 
 ## Como funciona?

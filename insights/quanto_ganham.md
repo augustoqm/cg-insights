@@ -1,37 +1,30 @@
----
-title: "Quanto ganham os Vereadores?"
-date: "19 de Agosto de 2016"
-output: 
-    md_document:
-        variant: markdown_github
----
+Quanto ganham os Vereadores?
+================
+19 de Agosto de 2016
 
-# Quanto ganham os Vereadores?
-
-Para sabermos quanto cada vereador de de Campina Grande recebe, fomos à constituição e encontramos a
-[Emenda Nº 25](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc25.htm) da qual extraimos o inciso VI do Artigo 29 (abaixo) e percebemos que tudo depende de quanto ganham os Deputados Estaduais.
+Para sabermos quanto cada vereador de de Campina Grande recebe, fomos à constituição e encontramos a [Emenda Nº 25](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc25.htm) da qual extraimos o inciso VI do Artigo 29 (abaixo) e percebemos que tudo depende de quanto ganham os Deputados Estaduais.
 
     "VI - o subsídio dos Vereadores será fixado pelas respectivas Câmaras Municipais em cada legislatura para a subseqüente, observado o que dispõe esta Constituição, observados os critérios estabelecidos na respectiva Lei Orgânica e os seguintes limites máximos:" (NR)
-    
+
     "a) em Municípios de até dez mil habitantes, o subsídio máximo dos Vereadores corresponderá a vinte por cento do subsídio dos Deputados Estaduais;" (AC) AC = acréscimo.
-    
+
     "b) em Municípios de dez mil e um a cinqüenta mil habitantes, o subsídio máximo dos Vereadores corresponderá a trinta por cento do subsídio dos Deputados Estaduais;" (AC)
-    
+
     "c) em Municípios de cinqüenta mil e um a cem mil habitantes, o subsídio máximo dos Vereadores corresponderá a quarenta por cento do subsídio dos Deputados Estaduais;" (AC)
-    
+
     "d) em Municípios de cem mil e um a trezentos mil habitantes, o subsídio máximo dos Vereadores corresponderá a cinqüenta por cento do subsídio dos Deputados Estaduais;" (AC)
-    
+
     "e) em Municípios de trezentos mil e um a quinhentos mil habitantes, o subsídio máximo dos Vereadores corresponderá a sessenta por cento do subsídio dos Deputados Estaduais;" (AC)
-    
+
     "f) em Municípios de mais de quinhentos mil habitantes, o subsídio máximo dos Vereadores corresponderá a setenta e cinco por cento do subsídio dos Deputados Estaduais;" (AC)
-    
+
     ................................................................................."
 
 ### Então qual é o salário dos Deputados Estaduais?
+
 A [Ementa Nº 19](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc19.htm) fala sobre isso, da qual extraímos a parte abaixo que em resumo diz que eles recebem até 75% do salário dos Deputados Federais.
 
     § 2º O subsídio dos Deputados Estaduais será fixado por lei de iniciativa da Assembléia Legislativa, na razão de, no máximo, setenta e cinco por cento daquele estabelecido, em espécie, para os Deputados Federais, observado o que dispõem os arts. 39, § 4º, 57, § 7º, 150, II, 153, III, e 153, § 2º, I.
-
 
 ### E os Deputados Federais enfim...
 
@@ -51,16 +44,15 @@ Esses valores estão disponíveis publicamente. E podemos resumir da seguinte ma
 
 Ou seja, concentrando nosso foco no salário seguindo os passos abaixo alcançamos o valor máximo dos salários dos Vereadores campinenses:
 
-  1) Os vereadores de Campina Grande ganham até 60% do que os Deputados Estaduais ganham (não ultrapassando 70% da folha de pagamento da câmara).
-  2) Os Deputados Estaduais ganham até 75% do que ganham os Deputados Federais
-  3) E os Deputados Federais ganham 33,7 mil reais
-  4) Então:
-  
-    * Deputados Estaduais podem ganhar até R$ 25,275
-    * Os **Vereadores Campinenses** podem ganhar até o teto de **R$ 15,165**!
+1.  Os vereadores de Campina Grande ganham até 60% do que os Deputados Estaduais ganham (não ultrapassando 70% da folha de pagamento da câmara).
+2.  Os Deputados Estaduais ganham até 75% do que ganham os Deputados Federais
+3.  E os Deputados Federais ganham 33,7 mil reais
+4.  Então:
 
+    -   Deputados Estaduais podem ganhar até R$ 25,275
+    -   Os **Vereadores Campinenses** podem ganhar até o teto de **R$ 15,165**!
 
-### Mas em Campina Grande a realidade tem mais detalhes...
+### Mas em Campina Grande a realidade tem mais alguns detalhes...
 
 Como falamos de teto salarial para vereadores, os valores podem sempre crescer até aquele valor. E foi o que aconteceu em 2013 como nos conta a postagem de André Costa de título [Salário dos vereadores de Campina Grande-PB terá aumento de 61,6% em 2013](http://andrecostamp.blogspot.com.br/2012/11/salario-dos-vereadores-de-campina.html)) da qual extraimos o seguinte texto:
 
@@ -101,10 +93,10 @@ E todos foram felizes para sempre!
 
 ### Nem todos...
 
-Analisando os dados dos gastos públicos do estado pelo [Sistema Sagres](https://sagres.tce.pb.gov.br) do Tribunal de Contas do Estado (TCE), encontramos os valores reais mensais do gasto com pessoal na Câmara de CG.  Vemos na impressão de tela abaixo que em Janeiro de 2015 foram gastos quase 1 Milhão de Reais com pessoal na Câmara, sendo mais de 250 mil apenas com os 23 vereadores. Imaginemos a soma de todas as Câmaras do estado?!
+Analisando os dados dos gastos públicos do estado pelo [Sistema Sagres](https://sagres.tce.pb.gov.br) do Tribunal de Contas do Estado (TCE), encontramos os valores reais mensais do gasto com pessoal na Câmara de CG. Vemos na impressão de tela abaixo que em Janeiro de 2015 foram gastos quase 1 Milhão de Reais com pessoal na Câmara, sendo mais de 250 mil apenas com os 23 vereadores. Imaginemos a soma de todas as Câmaras do estado?!
 
 ![Pagamento Pessoal da Câmara CG em Janeiro de 2015](figure/sagres_cg_camara_pessoal_2015_01.png)
 
 De fato vivemos em país cheio de riquezas, não só naturais e humanas mas também financeiras! O que falta é garantirmos que esse dinheiro seja bem empregado e esse é o nosso principal objetivo como cidadão e cientista de dados!
 
----
+------------------------------------------------------------------------

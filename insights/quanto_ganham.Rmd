@@ -1,12 +1,8 @@
 ---
 title: "Quanto ganham os Vereadores?"
 date: "19 de Agosto de 2016"
-output: 
-    md_document:
-        variant: markdown_github
+output: github_document
 ---
-
-# Quanto ganham os Vereadores?
 
 Para sabermos quanto cada vereador de de Campina Grande recebe, fomos à constituição e encontramos a
 [Emenda Nº 25](http://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc25.htm) da qual extraimos o inciso VI do Artigo 29 (abaixo) e percebemos que tudo depende de quanto ganham os Deputados Estaduais.
@@ -60,7 +56,7 @@ Ou seja, concentrando nosso foco no salário seguindo os passos abaixo alcançam
     * Os **Vereadores Campinenses** podem ganhar até o teto de **R$ 15,165**!
 
 
-### Mas em Campina Grande a realidade tem mais detalhes...
+### Mas em Campina Grande a realidade tem mais alguns detalhes...
 
 Como falamos de teto salarial para vereadores, os valores podem sempre crescer até aquele valor. E foi o que aconteceu em 2013 como nos conta a postagem de André Costa de título [Salário dos vereadores de Campina Grande-PB terá aumento de 61,6% em 2013](http://andrecostamp.blogspot.com.br/2012/11/salario-dos-vereadores-de-campina.html)) da qual extraimos o seguinte texto:
 

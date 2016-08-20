@@ -1,15 +1,11 @@
 ---
 title: "Meu Vereador? Explique-me por favor..."
 date: "19 de Agosto, 2016"
-output: 
-    md_document:
-        variant: markdown_github
+output: github_document
 ---
 
-# Meu Vereador? Explique-me por favor...
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, fig.width = 14)
+knitr::opts_chunk$set(echo = FALSE, fig.width = 14)
 
 library(readr)
 library(dplyr)
@@ -18,7 +14,7 @@ library(RPostgreSQL)
 library(ggplot2)
 library(lubridate)
 library(stringr)
-source("insights/0_utils.R")
+source("0_utils.R")
 
 theme_set(theme_bw(16))
 
@@ -56,7 +52,7 @@ for (i in 1:length(all_proponents)) {
 
 Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente (notem que os Prefeitos também estão inclusos pois também podem propor ementas). Visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que passam anos sem propor ementa alguma? Qual a razão dessa disparidade? 
 
-```{r proponent_over_time, echo = FALSE, fig.height=50}
+```{r proponent_over_time, fig.height=50}
 
 ggplot(ementa_prop_final %>% filter(govern != "Atual (2013 - 2016)"), 
                      aes(x = published_month, fill = proponent)) +
