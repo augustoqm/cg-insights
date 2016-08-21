@@ -4,19 +4,13 @@ O que significa Moção? Exemplo, por favor...
 
 Criamos esse insight para tentar clarear os tipos de ementa e os temas de cada ementa. A [Lei Orgânica do Município de Campina Grande](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf) trata DO PROCESSO LEGISLATIVO na Seção IV com o seguinte artigo definindo os tipos de ementa:
 
-    Art. 51 - O processo legislativo compreende a elaboração de:
+Art. 51 - O processo legislativo compreende a elaboração de:
 
-    I - emenda à Lei Orgânica;
-    II - lei complementar;
-    III - lei ordinária;
-    IV - decreto legislativo;
-    V - resolução.
+I - emenda à Lei Orgânica; II - lei complementar; III - lei ordinária; IV - decreto legislativo; V - resolução.
 
-    Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
+Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
 
-    I - a autorização;
-    II - a indicação;
-    III - o requerimento.
+I - a autorização; II - a indicação; III - o requerimento.
 
 Abaixo mostramos um gráfico de barras que conta a quantidade e ementas aprovadas por **Tipo** de ementa. Vemos que a grande maioria são Requerimentos depois Projetos de Lei Ordinária.
 
@@ -80,7 +74,6 @@ Fazemos o mesmo abaixo com os **Temas** das ementas, assim podemos entender suas
 | DENOMINAÇÃO DE CRECHE                | DÁ NOME DE CRECHE MUNICIPAL NO CONJUNTO HABITACIONAL GRANDE I E II DE, LÍDER COMUNITÁRIO EDNA DE SOUSA BARROS E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                  |
 | DENOMINAÇÂO DE ESCOLA                | DENOMINA DE MAMEDES RODRIGUES FERREIRA UMA DAS NOVAS RUAS DE NOSSA CIDADE E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                                                      |
 | DENOMINAÇÃO DE RUA                   | DENOMINA DE PEDRO CAVALCANTE FREIRE, UMA DAS NOVAS RUAS DE CAMPINA GRANDE E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                                                      |
-| DESEMPREGO                           | DENOMINA DE ANTONIA MOTA CAVALCANTE UMA DAS NOVAS RUAS DE NOSSA CIDADE E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                                                         |
 | DIA MUNICIPAL                        | INCLUI NO CALENDÁRIO OFICIAL DO MUNICÍPIO A ( SEMANA DO ADVOGADO), E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                                                             |
 | DIVERSÂO                             | DISPÕE SOBRE A PROIBIÇÃO DE COBRANÇA DE " COUVERT" AO CLIENTE QUE NÃO SOLICITA O SERVIÇO E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                                                                       |
 | DOAÇÂO DE IMÓVEIS PÚBLICOS           | AUTORIZA A TRANSFERÊNCIA DE PROPRIEDADE IMÓVEL MUNICIPAL, A TÍTULO NÃO ONEROSO, Á AGÊNCIA MUNICIPAL DESENVOLVIMENTO ECONÔMICO\_AMDE\_, E DÁ OUTRAS PROVIDÊNCIAS.                                                                                                                                                         |

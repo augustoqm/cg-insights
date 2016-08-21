@@ -16,20 +16,11 @@ source("0_utils.R")
 
 theme_set(theme_bw(16))
 
-camara_db <- StartCamaraDB()
-
-ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>%
-  filter(published_date >= "2009-01-01") %>%
-  mutate(published_month = date_trunc('month', published_date))
-
-ementas <- ementas_raw %>%
-  select(published_date, published_month, main_theme, situation) %>%
-  collect() %>%
-  mutate(govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)"),
-         published_year = year(published_date))
-
-approved_ementas <- ementas %>%
-  filter(situation == 'APROVADO')
+approved_ementas <- GetEmentaRaw() %>%
+    select(published_date, published_month, main_theme, situation, govern) %>%
+    mutate(published_year = year(published_date)) %>% 
+    filter(situation == 'APROVADO') %>% 
+    select(-situation)
 
 theme_count <- approved_ementas %>%
   count(main_theme) %>%

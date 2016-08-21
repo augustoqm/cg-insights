@@ -18,18 +18,9 @@ source("0_utils.R")
 
 theme_set(theme_bw(16))
 
-camara_db <- StartCamaraDB()
-
-ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>% 
-    filter(published_date >= "2009-01-01")
-
-ementas <- ementas_raw %>%
-    select(published_date, main_theme, ementa_type, situation, title) %>%
-    collect() %>% 
-    mutate(govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)")) %>% 
-    arrange(main_theme, published_date, title)
-
-approved_ementas <- ementas %>% 
+approved_ementas <- GetEmentaRaw() %>%
+    select(published_date, main_theme, ementa_type, situation, title, govern) %>%
+    arrange(main_theme, published_date, title) %>% 
     filter(situation == 'APROVADO') %>% 
     select(-situation)
 
@@ -39,28 +30,24 @@ type_count <- approved_ementas %>%
 # Some cleaning
 approved_ementas %<>% 
     inner_join(type_count, by = "ementa_type") %>% 
-    mutate(ementa_type = ifelse(ementa_type == "LEI ORDINÁRIA", "PROJETO DE LEI ORDINÁRIA", ementa_type),
-           ementa_type = ifelse(ementa_type == "LEI COMPLEMENTAR", "PROJETO DE LEI COMPLEMENTAR", ementa_type),
-           ementa_type = reorder(ementa_type, n),
-           main_theme = ifelse(ementa_type == "REQUERIMENTO" & main_theme == "DENOMINAÇÃO DE RUA", "TRANSITO URBANO", main_theme)) %>% 
-    ungroup()
+    mutate(ementa_type = reorder(ementa_type, n)) 
 ```
 
 Criamos esse insight para tentar clarear os tipos de ementa e os temas de cada ementa. A [Lei Orgânica do Município de Campina Grande](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf) trata DO PROCESSO LEGISLATIVO na Seção IV com o seguinte artigo definindo os tipos de ementa:
 
-    Art. 51 - O processo legislativo compreende a elaboração de:
-    
-    I - emenda à Lei Orgânica;
-    II - lei complementar;
-    III - lei ordinária;
-    IV - decreto legislativo;
-    V - resolução.
-    
-    Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
+Art. 51 - O processo legislativo compreende a elaboração de:
 
-    I - a autorização;
-    II - a indicação;
-    III - o requerimento.
+I - emenda à Lei Orgânica;
+II - lei complementar;
+III - lei ordinária;
+IV - decreto legislativo;
+V - resolução.
+
+Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
+
+I - a autorização;
+II - a indicação;
+III - o requerimento.
 
 Abaixo mostramos um gráfico de barras que conta a quantidade e ementas aprovadas por **Tipo** de ementa. Vemos que a grande maioria são Requerimentos depois Projetos de Lei Ordinária.
 

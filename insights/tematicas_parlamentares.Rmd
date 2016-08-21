@@ -17,40 +17,33 @@ source("0_utils.R")
 
 theme_set(theme_bw(16))
 
-camara_db <- StartCamaraDB()
-
-ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>% 
-  filter(published_date >= "2009-01-01")
-
-ementas <- ementas_raw %>%
-  select(published_date, main_theme, situation) %>%
-  collect() %>% 
-  mutate(govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)"))
+ementas <- GetEmentaRaw() %>%
+    select(published_date, main_theme, situation, govern)
 
 theme_count <- ementas %>% 
-  filter(situation == 'APROVADO') %>% 
-  count(main_theme, govern) %>% 
-  ungroup() %>% 
-  mutate(main_theme = reorder(main_theme, n, order = T)) %>% 
-  filter(n > 10)
+    filter(situation == 'APROVADO') %>% 
+    count(main_theme, govern) %>% 
+    ungroup() %>% 
+    mutate(main_theme = reorder(main_theme, n, order = T)) %>% 
+    filter(n > 10)
 ```
 
 Nosso objetivo com essa análise é chamar a atenção para os principais temas que tem sido discutidos na nossa Câmara Municipal. Faremos isso de várias formas, inicialmente mostramos que o governo atual (2013 - 2016) tramitou e aprovou mais ementas do que o governo anterior (2009 - 2012), o que é algo esperado já que o anterior era composto por apenas 16 vereadores e o atual por 23. 
 
 ```{r ementas_per_govern, fig.height = 6}
 ggplot(ementas, aes(x = govern, fill = situation)) + 
-  geom_bar(position = 'dodge') + 
-  labs(x = "Governo", y = "Nº de Ementas", fill = "Situação")
+    geom_bar(position = 'dodge') + 
+    labs(x = "Governo", y = "Nº de Ementas", fill = "Situação")
 ```
 
 Apesar do maior número não podemos tomar conclusões precipitadas. Estamos analisando dados reais, por isso precisamos adentrar mais a fundo, explorar as minúcias para saber quais foram as prioridades de cada governo e averiguar o real valor de cada ementa. Para tal filtramos apenas as ementas aprovadas e mostramos os contadores por tema específico.
 
 ```{r theme_per_govern, fig.height = 13}
 gg <- ggplot(theme_count, aes(x = main_theme, y = n, fill = govern)) + 
-  geom_bar(stat = 'identity', position = 'dodge') + 
-  coord_flip() +
-  labs(x = "Temas Principais", y = "Nº de Ementas", fill = "Governo") + 
-  theme(legend.position = 'bottom')
+    geom_bar(stat = 'identity', position = 'dodge') + 
+    coord_flip() +
+    labs(x = "Temas Principais", y = "Nº de Ementas", fill = "Governo") + 
+    theme(legend.position = 'bottom')
 print(gg)
 ```
 
@@ -60,7 +53,7 @@ Para finalizar expomos a "cara" dos governos com as seguintes nuvems de palavras
 
 ```{r wordcloud_govern_past, fig.width = 8, fig.height = 8}
 past_govern_theme_count <- theme_count %>% 
-  filter(govern == 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')
+    filter(govern == 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')
 
 wordcloud(words = past_govern_theme_count$main_theme, freq = past_govern_theme_count$n,
           colors = brewer.pal(8, "YlOrRd")[-c(1:4)], random.order = F)
@@ -70,7 +63,7 @@ wordcloud(words = past_govern_theme_count$main_theme, freq = past_govern_theme_c
 
 ```{r wordcloud_govern_cur, fig.width = 8, fig.height = 8}
 current_govern_theme_count <- theme_count %>% 
-  filter(govern != 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')
+    filter(govern != 'Anterior (2009 - 2012)' & main_theme != 'SERVIÇOS URBANOS')
 
 wordcloud(words = current_govern_theme_count$main_theme, freq = current_govern_theme_count$n,
           colors = brewer.pal(8, "YlGnBu")[-c(1:4)], random.order = F)
