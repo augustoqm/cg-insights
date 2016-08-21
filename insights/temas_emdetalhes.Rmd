@@ -21,7 +21,7 @@ theme_set(theme_bw(16))
 camara_db <- StartCamaraDB()
 
 ementas_raw <- tbl(camara_db, sql("SELECT * FROM ementas")) %>% 
-    filter(published_date >= "2013-01-01")
+    filter(published_date >= "2009-01-01")
 
 ementas <- ementas_raw %>%
     select(published_date, main_theme, ementa_type, situation, title) %>%
