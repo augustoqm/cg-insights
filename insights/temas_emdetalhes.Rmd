@@ -27,10 +27,13 @@ approved_ementas <- GetEmentaRaw() %>%
 type_count <- approved_ementas %>% 
     count(ementa_type)
 
-# Some cleaning
+theme_count <- approved_ementas %>% 
+    count(main_theme) %>% 
+    arrange(desc(n))
+
 approved_ementas %<>% 
     inner_join(type_count, by = "ementa_type") %>% 
-    mutate(ementa_type = reorder(ementa_type, n)) 
+    mutate(ementa_type = reorder(ementa_type, n))
 ```
 
 Criamos esse insight para tentar clarear os tipos de ementa e os temas de cada ementa. A [Lei Orgânica do Município de Campina Grande](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf) trata DO PROCESSO LEGISLATIVO na Seção IV com o seguinte artigo definindo os tipos de ementa:
@@ -68,7 +71,7 @@ three_titles_by_type_ementa <- approved_ementas %>%
     arrange(desc(published_date)) %>% 
     mutate(index = 1:n()) %>% 
     ungroup() %>% 
-    filter(index <= 3) %>% 
+    filter(index <= 2) %>% 
     mutate(ementa_type = as.character(ementa_type)) %>% 
     select(ementa_type, title) %>% 
     arrange(ementa_type, title)
@@ -77,7 +80,7 @@ colnames(three_titles_by_type_ementa) <- c("Tipo da Ementa", "Título")
 kable(three_titles_by_type_ementa)
 ```
 
-Fazemos o mesmo abaixo com os **Temas** das ementas, assim podemos entender suas definições a partir de exemplos. 
+Fazemos o mesmo abaixo com os 25 **Temas** mais frequentes, assim podemos entender suas definições a partir de exemplos. 
 
 ```{r ementa_samples}
 two_titles_by_type_ementa <- approved_ementas %>% 
@@ -88,6 +91,7 @@ two_titles_by_type_ementa <- approved_ementas %>%
     ungroup() %>% 
     filter(index <= 1) %>% 
     select(main_theme, title) %>% 
+    semi_join(theme_count[1:25,], by = "main_theme") %>% 
     arrange(main_theme, title)
 colnames(two_titles_by_type_ementa) <- c("Tema Principal", "Título")
 
