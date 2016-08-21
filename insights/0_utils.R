@@ -12,7 +12,7 @@ StartCamaraDB <- function(){
     camara_db
 }
 
-GetEmentaRaw <- function(db, cols){
+GetEmentaRaw <- function(){
     tbl(StartCamaraDB(), sql("SELECT * FROM ementas")) %>%
         select(-c(document_number, process_number, process_year, autograph_number, has_image)) %>%
         filter(published_date >= "2009-01-01") %>%
