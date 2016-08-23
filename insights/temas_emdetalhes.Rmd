@@ -38,19 +38,19 @@ approved_ementas %<>%
 
 Criamos esse insight para tentar clarear os tipos de ementa e os temas de cada ementa. A [Lei Orgânica do Município de Campina Grande](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf) trata DO PROCESSO LEGISLATIVO na Seção IV com o seguinte artigo definindo os tipos de ementa:
 
-Art. 51 - O processo legislativo compreende a elaboração de:
-
-I - emenda à Lei Orgânica;
-II - lei complementar;
-III - lei ordinária;
-IV - decreto legislativo;
-V - resolução.
-
-Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
-
-I - a autorização;
-II - a indicação;
-III - o requerimento.
+    Art. 51 - O processo legislativo compreende a elaboração de:
+    
+    I - emenda à Lei Orgânica;
+    II - lei complementar;
+    III - lei ordinária;
+    IV - decreto legislativo;
+    V - resolução.
+    
+    Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
+    
+    I - a autorização;
+    II - a indicação;
+    III - o requerimento.
 
 Abaixo mostramos um gráfico de barras que conta a quantidade e ementas aprovadas por **Tipo** de ementa. Vemos que a grande maioria são Requerimentos depois Projetos de Lei Ordinária.
 

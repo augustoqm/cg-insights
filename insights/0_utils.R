@@ -24,6 +24,5 @@ GetEmentaRaw <- function(){
                main_theme = ifelse(ementa_type == "REQUERIMENTO" & main_theme == "DENOMINAÇÃO DE RUA", "TRANSITO URBANO",
                                    ifelse(ementa_id == "2015-10-07#PROJETO DE LEI ORDINÁRIA#374#APROVADO", "DENOMINAÇÃO DE RUA",
                                           main_theme)),
-               govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)")) %>%
-        select(-ementa_id)
+               govern = ifelse(published_date < "2013-01-01", "Anterior (2009 - 2012)", "Atual (2013 - 2016)"))
 }
