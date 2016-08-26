@@ -22,19 +22,19 @@ library(knitr)
 
 ### Vereadores e suas Funções
 ```{r}
-vereadores_partidos <- read_csv("../docs/legislatura_16_vereador_partido.csv")
+vereadores_partidos <- read_csv("general_files/legislatura_16_vereador_partido.csv")
 kable(vereadores_partidos)
 ```
 
 ### Mesa Diretora
 ```{r}
-mesa_diretora <- read_csv("../docs/legislatura_16_mesa_diretora.csv")
+mesa_diretora <- read_csv("general_files/legislatura_16_mesa_diretora.csv")
 kable(mesa_diretora)
 ```
 
 ### Comissões Técnicas
 ```{r}
-comissoes <- read_csv("../docs/legislatura_16_comissoes_tecnicas.csv")
+comissoes <- read_csv("general_files/legislatura_16_comissoes_tecnicas.csv")
 kable(comissoes)
 ```
 
