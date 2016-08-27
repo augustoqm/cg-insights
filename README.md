@@ -1,20 +1,13 @@
 # CG Insights
 
-Com o objetivo de averiguarmos a situação política da Câmara Municipal de Campina Grande e assim exercermos mais diretamente nosso papel de cidadãos, lançamos mão da [Legislação sobre a Transparência Pública](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e coletamos o histórico de ementas publicadas no site da [Câmara Municipal de Campina Grande](https://www.campinagrande.pb.leg.br/) durante os anos de 2009 e 2016, mais especificamente no [Sistema de Busca de Documentos](http://187.115.174.90:8080/ScanLexWeb/).
+A partir dos dados públicos da Câmara Municipal de Campina Grande (ver mais detalhes em [cg-insights-data](https://github.com/augustoqm/cg-insights-data)) postamos aqui os insights/achados sobre o processo legislativo da cidade e seus vereadores.
 
-Nosso objetivo é fortalecer o valioso esforço da população brasileira em conhecer mais e melhor o que e como trabalham os seus representantes no governo do país.
-
-## Base de Dados
-A base de dados e sua descrição pode ser encontrada em [data/README.md](data/README.md)
-
-## Insights
-
-### Informando-se
+## Informando-se
 
 1. [Como funciona a Câmara de Campina Grande?](como_funciona.md) 
 2. [Quanto ganham os vereadores de Campina Grande?](quanto_ganham.md)
 
-### Aprofundando-se 
+## Aprofundando-se 
 
 1. [Temáticas Parlamentares](tematicas_parlamentares.md)
 2. [Trocando em Miúdos - Temáticas Parlamentares](temas_emdetalhes.md)
@@ -33,6 +26,5 @@ Referenciamos aqui a página da [Câmara Municipal de Manaus](http://www.cmm.am.
 
 A cidade de Barcelona - RN também publicou um FAQ bem completo sobre o [Tema Vereador](http://www.barcelona.educ.ufrn.br/vereador.htm).
 
-
 ## Aviso
-Esse repositório e todo o seu conteúdo não tem nenhuma intenção muito menos relação com quaisquer candidato a eleição ou pessoa pública.
+Esse repositório e todo o seu conteúdo não tem intenção política muito menos relação com quaisquer candidato a eleição ou pessoa pública.
