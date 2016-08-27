@@ -14,5 +14,6 @@ Abaixo listamos todos os insights do repositório.
 3. [O tempo passa mas os temas se repetem...](temas_no_tempo.md)
 4. [Meu Vereador? Explique-me por favor...](vereador_expliqueme.md)
 5. [Meu Vereador? Qual a sua especialidade?*](vereador_qualespecialidade.html)
+6. [Reeleições](reeleicoes.md)
 
 As páginas com * possuem recursos interativos não visualizáveis diretamente aqui no site. Para visualizá-los faça o download (clicando no nome *Download* dentro da página) e abra o arquivo no Browser normalmente.
