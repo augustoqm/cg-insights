@@ -14,52 +14,60 @@ library(RPostgreSQL)
 library(ggplot2)
 library(lubridate)
 library(stringr)
+library(stringi)
 source("0_utils.R")
 
 theme_set(theme_bw(16))
 
-approved_ementas <- GetEmentaRaw() %>%
-    select(published_date, published_month, main_theme, situation, proponents, govern) %>%
-    mutate(published_year = year(published_date)) %>% 
-    filter(situation == 'APROVADO') %>% 
-    select(-situation)
-
-ementa_proponents <- approved_ementas$proponents
-approved_ementas$proponents <- NULL
-
-ementa_prop_final <- data_frame()
-all_proponents <- str_split(ementa_proponents, ",", -1)
-for (i in 1:length(all_proponents)) {
-  prop_vec <- all_proponents[[i]]
-  row <- approved_ementas[i,]
-  row <- row[rep(1, length(prop_vec)),]
-  row$proponent <- prop_vec
-  ementa_prop_final <- ementa_prop_final %>% bind_rows(row)
-}
+ementa_prop_final <- tbl(StartCamaraDB(), sql(
+    "SELECT ement_cand.published_date,
+            date_trunc('month', ement_cand.published_date) as published_month,
+            cons_cand.ano_eleicao,
+            cons_cand.nome_urna_candidato,
+            cons_cand.descricao_cargo,
+            cons_cand.desc_sit_tot_turno
+    FROM map_ementa_candidato ement_cand, ementas, consulta_cand cons_cand
+    WHERE ement_cand.ementa_id = ementas.ementa_id and 
+          ement_cand.sequencial_candidato = cons_cand.sequencial_candidato and
+          ementas.situation = 'APROVADO' and
+          cons_cand.desc_sit_tot_turno not in ('2º TURNO')
+    ORDER BY cons_cand.ano_eleicao, cons_cand.descricao_cargo, cons_cand.nome_urna_candidato")) %>% 
+    collect() %>% 
+    transmute(ano_eleicao, 
+              published_year = year(published_date),
+              published_month,
+              govern = ifelse(ano_eleicao == 2008, 'Anterior (2009 - 2012)', 'Atual (2013 - 2016)'),
+              desc_sit_tot_turno = ifelse(desc_sit_tot_turno == "MÉDIA", "eleito por média",
+                                          str_to_lower(desc_sit_tot_turno)),
+              proponent_situacao = ifelse(!is.na(desc_sit_tot_turno), 
+                                          paste0(nome_urna_candidato, "\n(", desc_sit_tot_turno, ")"),
+                                          nome_urna_candidato))
 
 ```
 
-Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente (notem que os Prefeitos também estão inclusos pois também podem propor ementas). Visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que passam anos sem propor ementa alguma? Qual a razão dessa disparidade? 
+Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente (notem que os Prefeitos também estão inclusos pois também podem propor ementas). Visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que passam meses sem propor ementa alguma? Qual a razão dessa disparidade? 
+
+Uma das razões são os mandatos dos Vereadores *suplentes*. Para que um *suplente* exerça a candidatura outro candidato deve sair. Assim, podemos encontrar situações com uma parada repentina na produção de proposições e um início repentino, consequentemente.
 
 ```{r proponent_over_time, fig.height=50}
 
-ggplot(ementa_prop_final %>% filter(govern != "Atual (2013 - 2016)"), 
-                     aes(x = published_month, fill = proponent)) +
-  geom_bar() +
-  facet_grid(proponent~published_year, scales = "free_x") +
-  scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
-  labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
-  ggtitle("Governo Anterior (2009 - 2012)") +
-  theme(legend.position = "none", strip.text.y = element_text(angle = 0))
+ggplot(ementa_prop_final %>% filter(ano_eleicao == 2008), 
+       aes(x = published_month, fill = proponent_situacao)) +
+    geom_bar() +
+    facet_grid(proponent_situacao~published_year, scales = "free_x") +
+    scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
+    labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
+    ggtitle("Governo Anterior (2009 - 2012)") +
+    theme(legend.position = "none", strip.text.y = element_text(angle = 0))
 
-ggplot(ementa_prop_final %>% filter(govern == "Atual (2013 - 2016)"), 
-                     aes(x = published_month, fill = proponent)) +
-  geom_bar() +
-  facet_grid(proponent~published_year, scales = "free_x") +
-  scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
-  labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
-  ggtitle("Governo Atual (2013 - 2016)") +
-  theme(legend.position = "none", strip.text.y = element_text(angle = 0))
+ggplot(ementa_prop_final %>% filter(ano_eleicao == 2012), 
+       aes(x = published_month, fill = proponent_situacao)) +
+    geom_bar() +
+    facet_grid(proponent_situacao~published_year, scales = "free_x") +
+    scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
+    labs(x = "Data", y = "Nº de Ementas", fill = "Proponente") + 
+    ggtitle("Governo Atual (2013 - 2016)") +
+    theme(legend.position = "none", strip.text.y = element_text(angle = 0))
 ```
 
 ---

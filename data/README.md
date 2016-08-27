@@ -21,3 +21,6 @@ A tabela **comissoes_tecnicas** lista as comissões técnicas formadas na câmar
 
 #### Tabelas do TSE
 As tabelas do TSE tem suas próprias descrições disponibilizadas pelo Repositório e também acessíveis aqui: [TSE_Leiame_2016.pdf](TSE_Leiame_2016.pdf) 
+
+**Dicas**
+* A cada eleição o TSE gera identificadores sequenciais (i.e. *sequencial_candidato*) para os candidatos. Então esse sequencial não pode ser usado para unir tabelas em diferentes eleições, para tal pode-se usar o nome do candidato (i.e. *nome_candidato*)

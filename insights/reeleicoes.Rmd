@@ -1,0 +1,116 @@
+---
+title: "Releições entre mandatos (2008, 2012 e 2016?)"
+date: "27 de Agosto, 2016"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.width = 14)
+
+library(knitr)
+source("0_utils.R")
+```
+
+### Quais foram os **prefeitos** e **vereadores** que exerceram mandatos em 2008 e/ou em 2012 e qual sua situação no final da eleição?
+
+```{r prop_sit_eleito}
+prop_sit_eleito <- tbl(StartCamaraDB(), sql(
+    "select cons_cand.ano_eleicao,
+            cons_cand.nome_candidato,
+            cons_cand.descricao_cargo,
+            cons_cand.desc_sit_tot_turno
+    from map_proponent_candidato map_cand, consulta_cand cons_cand 
+    where map_cand.sequencial_candidato = cons_cand.sequencial_candidato and
+          map_cand.ano_eleicao = cons_cand.ano_eleicao and
+          cons_cand.desc_sit_tot_turno not in ('2º TURNO')
+    order by cons_cand.ano_eleicao, cons_cand.descricao_cargo, cons_cand.nome_candidato")) %>% 
+    collect() %>% 
+    mutate(id = 1:n(),
+           cargo = descricao_cargo,
+           situacao_eleicao = desc_sit_tot_turno) %>% 
+    select(id, ano_eleicao, cargo, nome_candidato, situacao_eleicao)
+
+kable(prop_sit_eleito %>% filter(ano_eleicao == 2008))
+kable(prop_sit_eleito %>% filter(ano_eleicao == 2012))
+```
+
+### Quantos **vereadores suplentes** foram convocados para exercer os mandatos em 2008 e 2012?
+```{r}
+suplentes_mandatos <- prop_sit_eleito %>% 
+    filter(situacao_eleicao == 'SUPLENTE') %>% 
+    count(ano_eleicao)
+kable(suplentes_mandatos)
+```
+
+
+### Quais pessoas que exerceram o mandato em 2008 se candidataram novamente em 2012?
+
+```{r prop_2008_reeleicao_2012}
+prop_2008_reeleicao_2012 <- tbl(StartCamaraDB(), sql(
+    "select cons_cand.nome_candidato, 
+            cons_cand.descricao_cargo,
+            cons_cand.desc_sit_tot_turno
+    from map_proponent_candidato map_cand, consulta_cand cons_cand
+    where map_cand.nome_candidato = cons_cand.nome_candidato and
+          map_cand.ano_eleicao = 2008 and
+          cons_cand.ano_eleicao = 2012
+    order by cons_cand.descricao_cargo, cons_cand.nome_candidato")) %>% 
+    collect() %>% 
+    mutate(id = 1:n(), 
+           cargo = descricao_cargo,
+           situacao_eleicao = desc_sit_tot_turno) %>% 
+    select(id, cargo, nome_candidato, situacao_eleicao)
+kable(prop_2008_reeleicao_2012)
+```
+
+
+### Quais deles (mandato em 2008 e candidatos em 2012) de fato exerceram mandato em 2012?
+
+```{r prop_2008_eleito_2012}
+prop_2008_eleito_2012 <- prop_sit_eleito %>% 
+    count(nome_candidato) %>% 
+    filter(n > 1) %>% 
+    select(nome_candidato) %>% 
+    mutate(id = 1:n()) %>% 
+    select(id, nome_candidato)
+kable(prop_2008_eleito_2012)
+```
+
+
+### Quantos prefeitos/vereadores dos mandatos 2008 e 2012 estão tentando se reeleger em 2016?
+
+```{r prop_2008_2012_releicao_2016}
+
+prop_2008_reeleicao_2016 <- tbl(StartCamaraDB(), sql(
+    "select cons_cand.nome_candidato, 
+            cons_cand.descricao_cargo
+    from map_proponent_candidato map_cand, consulta_cand cons_cand
+    where map_cand.nome_candidato = cons_cand.nome_candidato and
+          cons_cand.descricao_ue = 'CAMPINA GRANDE' and
+          map_cand.ano_eleicao = 2008 and
+          cons_cand.ano_eleicao = 2016
+    order by cons_cand.descricao_cargo, cons_cand.nome_candidato")) %>% 
+    collect() %>% 
+    mutate(id = 1:n(), 
+           cargo = descricao_cargo,
+           ano_mandato = 2008) %>% 
+    select(id, ano_mandato, cargo, nome_candidato)
+kable(prop_2008_reeleicao_2016)
+
+prop_2012_reeleicao_2016 <- tbl(StartCamaraDB(), sql(
+    "select cons_cand.nome_candidato,
+            cons_cand.descricao_cargo
+    from map_proponent_candidato map_cand, consulta_cand cons_cand 
+    where map_cand.nome_candidato = cons_cand.nome_candidato and
+          cons_cand.descricao_ue = 'CAMPINA GRANDE' and
+          map_cand.ano_eleicao = 2012 and 
+          cons_cand.ano_eleicao = 2016
+    order by cons_cand.descricao_cargo, cons_cand.nome_candidato")) %>% 
+    collect() %>% 
+    mutate(id = 1:n(), 
+           cargo = descricao_cargo,
+           ano_mandato = 2012) %>% 
+    select(id, ano_mandato, cargo, nome_candidato)
+kable(prop_2012_reeleicao_2016)
+```
+
