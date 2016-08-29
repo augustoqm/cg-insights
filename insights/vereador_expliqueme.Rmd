@@ -24,6 +24,7 @@ ementa_prop_final <- tbl(StartCamaraDB(), sql(
             date_trunc('month', ement_cand.published_date) as published_month,
             cons_cand.ano_eleicao,
             cons_cand.nome_urna_candidato,
+            cons_cand.sigla_partido,
             cons_cand.descricao_cargo,
             cons_cand.desc_sit_tot_turno
     FROM map_ementa_candidato ement_cand, ementas, consulta_cand cons_cand
@@ -41,7 +42,7 @@ ementa_prop_final <- tbl(StartCamaraDB(), sql(
                                           str_to_lower(desc_sit_tot_turno)),
               eh_suplente = desc_sit_tot_turno == 'SUPLENTE',
               proponent_situacao = ifelse(!is.na(desc_sit_tot_turno), 
-                                          paste0(nome_urna_candidato, "\n(", desc_sit_tot_turno, ")"),
+                                          paste0(nome_urna_candidato, "\n", sigla_partido, " - ",  desc_sit_tot_turno),
                                           nome_urna_candidato))
 
 ```
