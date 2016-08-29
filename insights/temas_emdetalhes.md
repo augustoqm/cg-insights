@@ -1,20 +1,26 @@
-O que significa Moção? Exemplo, por favor...
+Trocando em Miúdos - Temáticas Parlamentares
 ================
 20 de Agosto, 2016
 
 Criamos esse insight para tentar clarear os tipos de ementa e os temas de cada ementa. A [Lei Orgânica do Município de Campina Grande](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf) trata DO PROCESSO LEGISLATIVO na Seção IV com o seguinte artigo definindo os tipos de ementa:
 
-Art. 51 - O processo legislativo compreende a elaboração de:
+    Art. 51 - O processo legislativo compreende a elaboração de:
 
-I - emenda à Lei Orgânica; II - lei complementar; III - lei ordinária; IV - decreto legislativo; V - resolução.
+    I - emenda à Lei Orgânica;
+    II - lei complementar;
+    III - lei ordinária;
+    IV - decreto legislativo;
+    V - resolução.
 
-Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
+    Parágrafo único - São ainda objeto de deliberação da Câmara, na forma do Regimento Interno:
 
-I - a autorização; II - a indicação; III - o requerimento.
+    I - a autorização;
+    II - a indicação;
+    III - o requerimento.
 
 Abaixo mostramos um gráfico de barras que conta a quantidade e ementas aprovadas por **Tipo** de ementa. Vemos que a grande maioria são Requerimentos depois Projetos de Lei Ordinária.
 
-![](temas_emdetalhes_files/figure-markdown_github/ementa_type_count-1.png)
+![](img/ementa_type_count-1.png)
 
 Listamos dois exemplos de ementas para cada Tipo abaixo.
 

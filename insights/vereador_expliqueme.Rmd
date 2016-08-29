@@ -5,7 +5,7 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.width = 14)
+knitr::opts_chunk$set(echo = FALSE, fig.path = "img/", fig.width = 14)
 
 library(readr)
 library(dplyr)
@@ -39,6 +39,7 @@ ementa_prop_final <- tbl(StartCamaraDB(), sql(
               govern = ifelse(ano_eleicao == 2008, 'Anterior (2009 - 2012)', 'Atual (2013 - 2016)'),
               desc_sit_tot_turno = ifelse(desc_sit_tot_turno == "MÉDIA", "eleito por média",
                                           str_to_lower(desc_sit_tot_turno)),
+              eh_suplente = desc_sit_tot_turno == 'SUPLENTE',
               proponent_situacao = ifelse(!is.na(desc_sit_tot_turno), 
                                           paste0(nome_urna_candidato, "\n(", desc_sit_tot_turno, ")"),
                                           nome_urna_candidato))
@@ -47,10 +48,7 @@ ementa_prop_final <- tbl(StartCamaraDB(), sql(
 
 Nessa análise buscamos capturar os padrões temporais do trabalho dos vereadores da Câmara Municipal de Campina Grande individualmente (notem que os Prefeitos também estão inclusos pois também podem propor ementas). Visualizando os gráficos no tempo encontramos alguns vereadores que publicam ementas corriqueiramente, mas estranhamente vemos vários que passam meses sem propor ementa alguma? Qual a razão dessa disparidade? 
 
-Uma das razões são os mandatos dos Vereadores *suplentes*. Para que um *suplente* exerça a candidatura outro candidato deve sair. Assim, podemos encontrar situações com uma parada repentina na produção de proposições e um início repentino, consequentemente.
-
 ```{r proponent_over_time, fig.height=50}
-
 ggplot(ementa_prop_final %>% filter(ano_eleicao == 2008), 
        aes(x = published_month, fill = proponent_situacao)) +
     geom_bar() +
@@ -69,5 +67,19 @@ ggplot(ementa_prop_final %>% filter(ano_eleicao == 2012),
     ggtitle("Governo Atual (2013 - 2016)") +
     theme(legend.position = "none", strip.text.y = element_text(angle = 0))
 ```
+
+A principal razão está no afastamento dos vereadores do cargo. Vários alegam motivos pessoais e conseguem 121 dias de licença, outros são convocados para cargos executivos, outros são eleitos deputados estaduais e por ai vai. O fato é que esse afastamento causa uma interrupção em seu trabalho. Ao afastar-se um vereador suplente do seu próprio partido o susbstitui, não havendo suplentes o suplente com maior número de votos é convocado. No mandato de 2012 a quantidade de substituições de vereadores foi tamanha, que as nomeações de suplentes ficaram conhecidas como **dança das cadeiras**. Abaixo listamos a maioria das substituições de 2012 extraídas do noticiário online. 
+
+Com um pouco de paciência comparando a tabela abaixo com o gráfico acima vemos que a maioria dos vereadores que se afastaram, ao retornarem continuaram com o mesmo fôlego de antes. Ainda mais, vemos vários casos de vereadores suplentes que mesmo depois de devolverem os cargos ainda tem ementas publicadas, demonstrando a dedicação em preparar trabalhos para publicação em futuras sessões. 
+
+Que ótima surpresa que os dados nos facultaram! Esse é o valor de ter dados reais nas mãos! Que continuemos assim! 
+
+```{r}
+suplentes_posse <- read_csv("files/mandato_2012_danca_cadeiras_suplentes.csv")
+suplentes_posse[is.na(suplentes_posse)] <- ""
+knitr::kable(suplentes_posse)
+```
+
+Obs.: As células em branco indicam datas ou justificativas não encontradas em nossas pesquisas online.
 
 ---

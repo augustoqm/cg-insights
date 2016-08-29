@@ -5,7 +5,7 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, fig.width = 13)
+knitr::opts_chunk$set(echo = FALSE, fig.path = "img/", fig.width = 14)
 
 library(dplyr)
 library(knitr)

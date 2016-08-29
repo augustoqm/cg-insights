@@ -95,7 +95,7 @@ E todos foram felizes para sempre!
 
 Analisando os dados dos gastos públicos do estado pelo [Sistema Sagres](https://sagres.tce.pb.gov.br) do Tribunal de Contas do Estado (TCE), encontramos os valores reais mensais do gasto com pessoal na Câmara de CG. Vemos na impressão de tela abaixo que em Janeiro de 2015 foram gastos quase 1 Milhão de Reais com pessoal na Câmara, sendo mais de 250 mil apenas com os 23 vereadores. Imaginemos a soma de todas as Câmaras do estado?!
 
-![Pagamento Pessoal da Câmara CG em Janeiro de 2015](figure/sagres_cg_camara_pessoal_2015_01.png)
+![Pagamento Pessoal da Câmara CG em Janeiro de 2015](img/sagres_cg_camara_pessoal_2015_01.png)
 
 De fato vivemos em país cheio de riquezas, não só naturais e humanas mas também financeiras! O que falta é garantirmos que esse dinheiro seja bem empregado e esse é o nosso principal objetivo como cidadão e cientista de dados!
 
