@@ -1,6 +1,7 @@
 # Os Vereadores de Campina Grande
 
-A partir dos dados das ementas publicadas pela Câmara Municipal de Campina Grande (CMCG) e também de dados públicos do Tribunal Superior Eleitoral, criamos uma série de posts sobre a Câmara em si, os Vereadores dos dois últimos mandatos (das eleições de 2008 e 2012), quanto ganham, os temas mais tratados, os partidos de situação e de oposição dentre vários outros temas. Com isso buscamos informar, porque hoje em dia a informação vale ouro! Nos informando poderemos agir elegendo melhores vereadores (e prefeitos, porque não?) nessa eleição que virá. Como também acompanhar o trabalho daqueles que elegermos.
+A partir dos dados das ementas publicadas pela [Câmara Municipal de Campina Grande (CMCG)](https://www.campinagrande.pb.leg.br/) e também de dados públicos do [Tribunal Superior Eleitoral (TSE)](http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais), criamos uma série de posts buscando responder perguntas sobre o funcionamento da Câmara; quem são e o que fizeram os Vereadores dos dois últimos mandatos (das eleições de 2008 e 2012); quanto ganham e por quê?; quais são os temas mais tratados? O que é e quais são os partidos de situação e de oposição? Dentre várias outras questões. 
+Nosso objetivo aqui é **informar**, pura e simplesmente informar! Hoje em dia informação é tudo e com a Lei de Transparência pública do nosso lado, os dados estão ai, só falta alguém analisá-los para extrair a tão desejada informação. Nos informando poderemos agir elegendo melhores vereadores (e prefeitos) nessa e nas próximas eleições. 
 
 ## Posts
 1. [Como funciona a Câmara de Campina Grande?](insights/como_funciona.md) 
