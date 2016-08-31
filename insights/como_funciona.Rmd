@@ -27,6 +27,7 @@ Para fixarmos melhor, colamos suas fotos aqui. Nada de propaganda, mas vamos nos
 
 ```{r, results='asis'}
 vereadores_eleitos <- read_csv("files/mandato_2012_vereadores_eleitos_img.csv")
+vereadores_eleitos[is.na(vereadores_eleitos)] <- ""
 kable(vereadores_eleitos)
 ```
 
@@ -34,6 +35,7 @@ kable(vereadores_eleitos)
 
 ```{r, results='asis'}
 vereadores_suplentes <- read_csv("files/mandato_2012_vereadores_suplentes_img.csv")
+vereadores_suplentes[is.na(vereadores_suplentes)] <- ""
 kable(vereadores_suplentes)
 ```
 
