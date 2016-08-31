@@ -1,0 +1,22 @@
+---
+title: "Primeiro o Partido, depois o Vereador!"
+output: github_document
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.path = "img/", fig.width = 14)
+```
+
+Essa é a regra em todas as câmaras municipais do país, primeiro o partido depois os vereadores! Mas por que isso, se votamos em vereadores? A resposta está em algumas definições da lei que rege o sistema político brasileiro, são estas:
+
+* Todo o dinheiro do governo que vem para financimento de campanha vai para os partidos e não para os políticos;
+* Vereadores suplentes são suplentes do partido, ou seja, para ele ou ela tomarem posse é necessário que um vereador de seu partido afaste-se, ou que todos os suplentes do partido do vereador afastado tenham tomado posse e ele seja o próximo com mais votos.
+* Na Câmara existem dois lados, situação e oposição, e quem define onde está cada vereador é o seu partido e não ele próprio
+
+Então, nada mais normal do que analisarmos as ementas agregando-as por bandeiras partidárias.
+
+
+
+
+
+

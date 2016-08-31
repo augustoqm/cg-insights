@@ -1,20 +1,16 @@
-# CG Insights
+# Os Vereadores de Campina Grande
 
-A partir dos dados públicos da Câmara Municipal de Campina Grande (ver mais detalhes em [cg-insights-data](https://github.com/augustoqm/cg-insights-data)) postamos aqui os insights/achados sobre o processo legislativo da cidade e seus vereadores.
+A partir dos dados das ementas publicadas pela Câmara Municipal de Campina Grande (CMCG) e também de dados públicos do Tribunal Superior Eleitoral, criamos uma série de posts sobre a Câmara em si, os Vereadores dos dois últimos mandatos (das eleições de 2008 e 2012), quanto ganham, os temas mais tratados, os partidos de situação e de oposição dentre vários outros temas. Com isso buscamos informar, porque hoje em dia a informação vale ouro! Nos informando poderemos agir elegendo melhores vereadores (e prefeitos, porque não?) nessa eleição que virá. Como também acompanhar o trabalho daqueles que elegermos.
 
-## Informando-se
-
+## Posts
 1. [Como funciona a Câmara de Campina Grande?](insights/como_funciona.md) 
-2. [Quanto ganham os vereadores de Campina Grande?](insights/quanto_ganham.md)
-
-## Aprofundando-se 
-
-1. [Temáticas Parlamentares](insights/tematicas_parlamentares.md)
-2. [Trocando em Miúdos - Temáticas Parlamentares](insights/temas_emdetalhes.md)
-3. [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md)
-4. [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md)
-5. [Meu Vereador? Qual a sua especialidade?*](insights/vereador_qualespecialidade.html)
-6. [Reeleições](insights/reeleicoes.md) (em desenvolvimento)
+2. [Quanto ganham nossos vereadores?](insights/quanto_ganham.md) (em revisão)
+3. [Temáticas Parlamentares](insights/tematicas_parlamentares.md) (em revisão)
+4. [Trocando em Miúdos - Temáticas Parlamentares](insights/temas_emdetalhes.md) (em revisão)
+5. [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md) (em revisão)
+6. [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md) (em revisão)
+7. [Meu Vereador? Qual a sua especialidade?*](insights/vereador_qualespecialidade.html) (em revisão)
+8. [Reeleições](insights/reeleicoes.md) (em construção)
 
 As páginas com * possuem recursos interativos não visualizáveis diretamente aqui no site. Para visualizá-los faça o download (clicando no nome *Download* dentro da página) e abra o arquivo no Browser normalmente.
  

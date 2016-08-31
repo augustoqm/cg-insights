@@ -2,148 +2,96 @@ Como Funciona a Câmara Municipal de Campina Grande?
 ================
 19 de Agosto, 2016
 
-Dados gerais da 16ª Legislatura (2013 - 2016)
----------------------------------------------
+Conhecendo a Câmara (Mandato 2013 - 2016)
+-----------------------------------------
 
--   Poder Legislativo com autonomia adminsitrativa e financeira composto por **23 vereadores**
--   Mandato de 4 anos
--   Período de trabalho anual:
-    -   20 de Fevereiro a 20 de Junho
-    -   20 de Julho a 20 de Dezembro
--   Todas as Sessões são públicas (salvo disposições contrárias previstas na [Lei Orgânica do Município](http://pmcg.org.br/wp-content/uploads/2014/09/Lei-Organica-do-Municipio.pdf))
+A nossa câmara é composta atualmente por **23 vereadores** responsáveis pelo poder legislativo municipal e também por instruir e fiscalizar o executivo, ou seja, representado pelo prefeito. Essas atribuições fazem deles peças chaves no concerto municipal e por isso, nosso voto é suma importância para a melhoria da qualidade de vida de Campina Grande.
 
-### Vereadores e suas Funções
+O mandato dos vereadores é de **4 anos**, no entanto, por lei eles podem ter até 3 meses de férias a cada ano! Ou seja, em um mandato de 4 anos, eles só precisam trabalhar 3! Mas, para amenizar um pouco a Câmara de Campina Grande definiu em seu regimento que eles terão "apenas" **70 dias de férias**, de 23/12 à 10/02 e 20/06 à 10/07, não podiam deixar de curtir o São João obviamente...
 
-| Vereador               | Partido |
-|:-----------------------|:--------|
-| Alexandre do Sindicato | PHS     |
-| Anderson Maia          | PSB     |
-| Aragão Júnior          | PTB     |
-| Cícero Buchada         | PHS     |
-| Galego do Leite        | PTN     |
-| Hercules Lafite        | PSC     |
-| Ivan Batista           | PSDB    |
-| Ivonete Ludgério       | PSD     |
-| João Dantas            | PSD     |
-| Marinaldo Cardoso      | PRB     |
-| Miguel Rodrigues       | PSC     |
-| Murilo Galdino         | PSB     |
-| Napoleão Maracajá      | PC do B |
-| Nelson Gomes           | PSDB    |
-| Olimpio Oliveira       | PMDB    |
-| Orlandino Farias       | PSC     |
-| Pimentel Filho         | PSD     |
-| Pr. Josimar Henrique   | PRB     |
-| Rodolfo Rodrigues      | PR      |
-| Rodrigo Ramos          | PDT     |
-| Saulo Noronha          | DEM     |
-| Sargento Régis         | PMN     |
-| Vaninho Aragão         | DEM     |
+Então, apesar de termos 23 vereadores, a eleição também definiu uma lista de **13 suplentes**, ou substitutos, que podem tomar posse em casos de afastamento de algum dos 23 (seguindo algumas regras, voltamos a esse tema em posts futuros). Em Campina Grande, por obra do "acaso" todos os 13 tomaram posse pelo menos uma vez durante este último mandato.
+
+Para fixarmos melhor, colamos suas fotos aqui. Nada de propaganda, mas vamos nos acostumando com o rosto deles pra podermos lembrar dos seus feitos (e desfeitos) na hora que aparecerem nas propagandas! Vamos seguindo, temos muito a conversar. =)
+
+<!-- ### Vereadores Eleitos -->
+| ![ALEXANDRE DO SINDICATO - PTC](img/vereadores_photos/alexandre_do_sindicato.jpg) | ![BRUNO CUNHA LIMA - PSDB](img/vereadores_photos/bruno_cunha_lima.jpg) | ![BUCHADA - PTN](img/vereadores_photos/buchada.jpg)                              | ![DR. OLIMPIO - PMDB](img/vereadores_photos/dr_olimpio.jpg)                 | ![GALEGO DO LEITE - PMN](img/vereadores_photos/galego_do_leite.jpg) |
+|:----------------------------------------------------------------------------------|:-----------------------------------------------------------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------------|:--------------------------------------------------------------------|
+| ALEXANDRE DO SINDICATO - PTC                                                      | BRUNO CUNHA LIMA - PSDB                                                | BUCHADA - PTN                                                                    | DR. OLIMPIO - PMDB                                                          | GALEGO DO LEITE - PMN                                               |
+| ![INÁCIO FALCÃO - PSDB](img/vereadores_photos/inacio_falcao.jpg)                  | ![IVAN BATISTA - PMDB](img/vereadores_photos/ivan_batista.jpg)         | ![JOIA GERMANO - PRP](img/vereadores_photos/joia_germano.jpg)                    | ![LAFITE - PSC](img/vereadores_photos/lafite.jpg)                           | ![LULA CABRAL - PRB](img/vereadores_photos/lula_cabral.jpg)         |
+| INÁCIO FALCÃO - PSDB                                                              | IVAN BATISTA - PMDB                                                    | JOIA GERMANO - PRP                                                               | LAFITE - PSC                                                                | LULA CABRAL - PRB                                                   |
+| ![MARINALDO CARDOSO - PRB](img/vereadores_photos/marinaldo_cardoso.jpg)           | ![METUSELA AGRA - PMDB](img/vereadores_photos/metusela_agra.jpg)       | ![MURILO GALDINO - PSB](img/vereadores_photos/murilo_galdino.jpg)                | ![NAPOLEÃO MARACAJÁ - PC do B](img/vereadores_photos/napoleao_maracaja.jpg) | ![NELSON GOMES - PRP](img/vereadores_photos/nelson_gomes.jpg)       |
+| MARINALDO CARDOSO - PRB                                                           | METUSELA AGRA - PMDB                                                   | MURILO GALDINO - PSB                                                             | NAPOLEÃO MARACAJÁ - PC do B                                                 | NELSON GOMES - PRP                                                  |
+| ![ORLANDINO FARIAS - PSC](img/vereadores_photos/orlandino_farias.jpg)             | ![PIMENTEL FILHO - PMDB](img/vereadores_photos/pimentel_filho.jpg)     | ![PROF. MIGUEL RODRIGUES - PPS](img/vereadores_photos/prof_miguel_rodrigues.jpg) | ![RODRIGO RAMOS - PMN](img/vereadores_photos/rodrigo_ramos.jpg)             | ![SAULO NORONHA - DEM](img/vereadores_photos/saulo_noronha.jpg)     |
+| ORLANDINO FARIAS - PSC                                                            | PIMENTEL FILHO - PMDB                                                  | PROF. MIGUEL RODRIGUES - PPS                                                     | RODRIGO RAMOS - PMN                                                         | SAULO NORONHA - DEM                                                 |
+| ![SGT REGIS - PMN](img/vereadores_photos/sgt_regis.jpg)                           | ![TOVAR - PSDB](img/vereadores_photos/tovar.jpg)                       | ![VANINHO ARAGAO - DEM](img/vereadores_photos/vaninho_aragao.jpg)                | NA                                                                          | NA                                                                  |
+| SGT REGIS - PMN                                                                   | TOVAR - PSDB                                                           | VANINHO ARAGAO - DEM                                                             | NA                                                                          | NA                                                                  |
+
+### Vereadores Suplentes
+
+| NA                                                                      | NA                                                              | NA                                                                            | NA                                                                | NA                                                                     |
+|:------------------------------------------------------------------------|:----------------------------------------------------------------|:------------------------------------------------------------------------------|:------------------------------------------------------------------|:-----------------------------------------------------------------------|
+| ![ALCINDOR VILLARIM - PMN](img/vereadores_photos/alcindor_villarim.jpg) | ![ALDO CABRAL - PC do B](img/vereadores_photos/aldo_cabral.jpg) | ![ANDERSON MAIA - PSB](img/vereadores_photos/anderson_maia.jpg)               | ![ARAGÃO JUNIOR - PSD](img/vereadores_photos/aragao_junior.jpg)   | ![IVONETE LUDGERIO - PSB](img/vereadores_photos/ivonete_ludgerio.jpg)  |
+| ALCINDOR VILLARIM - PMN                                                 | ALDO CABRAL - PC do B                                           | ANDERSON MAIA - PSB                                                           | ARAGÃO JUNIOR - PSD                                               | IVONETE LUDGERIO - PSB                                                 |
+| ![JOAO DANTAS - PSD](img/vereadores_photos/joao_dantas.jpg)             | ![LOURDES COSTA - PMN](img/vereadores_photos/lourdes_costa.jpg) | ![MIGUEL DA CONSTRUÇÃO - PRB](img/vereadores_photos/miguel_da_construcao.jpg) | ![PASTOR JOSIMAR - PRB](img/vereadores_photos/pastor_josimar.jpg) | ![RODOLFO RODRIGUES - PR](img/vereadores_photos/rodolfo_rodrigues.jpg) |
+| JOAO DANTAS - PSD                                                       | LOURDES COSTA - PMN                                             | MIGUEL DA CONSTRUÇÃO - PRB                                                    | PASTOR JOSIMAR - PRB                                              | RODOLFO RODRIGUES - PR                                                 |
+| ![ROSTAND PARAIBA - PRB](img/vereadores_photos/rostand_paraiba.jpg)     | ![SAULO GERMANO - PMN](img/vereadores_photos/saulo_germano.jpg) | ![TIA MILA - PV](img/vereadores_photos/tia_mila.jpg)                          | NA                                                                | NA                                                                     |
+| ROSTAND PARAIBA - PRB                                                   | SAULO GERMANO - PMN                                             | TIA MILA - PV                                                                 | NA                                                                | NA                                                                     |
 
 ### Mesa Diretora
 
-| Vereador                        | Cargo         |
-|:--------------------------------|:--------------|
-| ANTONIO ALVES PIMENTEL FILHO    | PRESIDENTE    |
-| ORLANDINO PEREIRA DE FARIAS     | 1º VICE       |
-| JOSÉ MARINALDO CARDOSO          | 2º VICE       |
-| CASSIO MURILO GALDINO DE ARAUJO | 1º SECRETARIO |
-| IVAN OLIVEIRA BATISTA           | 2º SECRETARIO |
+Logo no início do mandato tem-se a votação da mesa diretora para o primeio biênio do mandato, depois de 2 anos tem outra eleição. Colocamos abaixo os nomes e seus cargos, vamos lembrar desses nomes porque eles são os principais representantes da Câmara, em especial os presidentes...
+
+**Mesa Diretora - Biênio 2013-2014**
+
+| Presidente                                                    | 1º Vice                                                           | 2º Vice                                                          | 1º Secretário                                                      | 2º Secretário                                                   |
+|:--------------------------------------------------------------|:------------------------------------------------------------------|:-----------------------------------------------------------------|:-------------------------------------------------------------------|:----------------------------------------------------------------|
+| ![NELSON GOMES - PRP](img/vereadores_photos/nelson_gomes.jpg) | ![MURILO GALDINO - PSB](img/vereadores_photos/murilo_galdino.jpg) | ![INÁCIO FALCÃO - PSDB](img/vereadores_photos/inacio_falcao.jpg) | ![PIMENTEL FILHO - PMDB](img/vereadores_photos/pimentel_filho.jpg) | ![RODRIGO RAMOS - PMN](img/vereadores_photos/rodrigo_ramos.jpg) |
+| NELSON GOMES                                                  | MURILO GALDINO                                                    | INACIO FALCAO                                                    | PIMENTEL FILHO                                                     | RODRIGO RAMOS                                                   |
+
+**Mesa Diretora - Biênio 2015-2016**
+
+| Presidente                                                         | 1º Vice                                                               | 2º Vice                                                                 | 1º Secretário                                                     | 2º Secretário                                                  |
+|:-------------------------------------------------------------------|:----------------------------------------------------------------------|:------------------------------------------------------------------------|:------------------------------------------------------------------|:---------------------------------------------------------------|
+| ![PIMENTEL FILHO - PMDB](img/vereadores_photos/pimentel_filho.jpg) | ![ORLANDINO FARIAS - PSC](img/vereadores_photos/orlandino_farias.jpg) | ![MARINALDO CARDOSO - PRB](img/vereadores_photos/marinaldo_cardoso.jpg) | ![MURILO GALDINO - PSB](img/vereadores_photos/murilo_galdino.jpg) | ![IVAN BATISTA - PMDB](img/vereadores_photos/ivan_batista.jpg) |
+| PIMENTEL FILHO                                                     | ORLANDINO FARIAS                                                      | MARINALDO CARDOSO                                                       | MURILO GALDINO                                                    | IVAN BATISTA                                                   |
 
 ### Comissões Técnicas
 
-| Comissão                                                                                  | Cargo      | Vereador                            |
-|:------------------------------------------------------------------------------------------|:-----------|:------------------------------------|
-| Comissão Constituição, Justiça e Redação                                                  | Presidente | NELSON GOMES FILHO                  |
-| Comissão Constituição, Justiça e Redação                                                  | Secretário | RODRIGO RAMOS VICTOR                |
-| Comissão Constituição, Justiça e Redação                                                  | Membro     | JOAO CRISOSTOMO MOREIRA DANTAS      |
-| Comissão de Agricultura e Pecuária                                                        | Presidente | JOSEILDO ALVES DOS SANTOS           |
-| Comissão de Agricultura e Pecuária                                                        | Secretário | RODOLFO RODRIGUES                   |
-| Comissão de Agricultura e Pecuária                                                        | Membro     | IVONETE ALMEIDA DE ANDRADE LUDGERIO |
-| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Presidente | ANDERSON FILIPI MAIA DE MENEZES     |
-| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Secretário | GILVANI ANTONIO ARAGAO              |
-| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      | Membro     | JOSE COSTA ARAGÃO JUNIOR            |
-| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Presidente | IVONETE ALMEIDA DE ANDRADE LUDGERIO |
-| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Secretário | CASSIO MURILO GALDINO DE ARAUJO     |
-| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             | Membro     | ALEXANDRE PEREIRA DA SILVA          |
-| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Presidente | CASSIO MURILO GALDINO DE ARAUJO     |
-| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Secretário | JOSÉ MARINALDO CARDOSO              |
-| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               | Membro     | AFONSO ALEXANDRE REGIS CAVALCANTE   |
-| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Presidente | NAPOLEÃO DE FARIAS MARACAJÁ         |
-| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Secretário | MIGUEL RODRIGUES DA SILVA           |
-| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público | Membro     | RODRIGO RAMOS VICTOR                |
-| Comissão de Educação, Esporte e Turismo                                                   | Presidente | MIGUEL RODRIGUES DA SILVA           |
-| Comissão de Educação, Esporte e Turismo                                                   | Secretário | GILVANI ANTONIO ARAGAO              |
-| Comissão de Educação, Esporte e Turismo                                                   | Membro     | ANDERSON FILIPI MAIA DE MENEZES     |
-| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Presidente | JOSÉ MARINALDO CARDOSO              |
-| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Secretário | JOSEILDO ALVES DOS SANTOS           |
-| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       | Membro     | JOAO CRISOSTOMO MOREIRA DANTAS      |
-| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Presidente | JOSIMAR HENRIQUE DA SILVA           |
-| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Secretário | MIGUEL RODRIGUES DA SILVA           |
-| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido | Membro     | IVAN OLIVEIRA BATISTA               |
-| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Presidente | CICERO RODRIGUES DA SILVA           |
-| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Secretário | JOSE COSTA ARAGÃO JUNIOR            |
-| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               | Membro     | OLIMPIO OLIVEIRA                    |
-| Comissão de Saúde e Bem Estar Social                                                      | Presidente | JOAO CRISOSTOMO MOREIRA DANTAS      |
-| Comissão de Saúde e Bem Estar Social                                                      | Secretário | IVAN OLIVEIRA BATISTA               |
-| Comissão de Saúde e Bem Estar Social                                                      | Membro     | RODRIGO RAMOS VICTOR                |
-| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Presidente | ALEXANDRE PEREIRA DA SILVA          |
-| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Secretário | OLIMPIO OLIVEIRA                    |
-| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        | Membro     | AFONSO ALEXANDRE REGIS CAVALCANTE   |
-| Comissão de Transporte e Mobilidade Urbana                                                | Presidente | AFONSO ALEXANDRE REGIS CAVALCANTE   |
-| Comissão de Transporte e Mobilidade Urbana                                                | Secretário | JOSÉ MARINALDO CARDOSO              |
-| Comissão de Transporte e Mobilidade Urbana                                                | Membro     | ANDERSON FILIPI MAIA DE MENEZES     |
+Para se organizar melhor as câmaras definem *comissões técnicas* que se especializam em assuntos específicos. Abaixo listamos as **13 comissões** da nossa câmara. Voltaremos a esse tema mais a frente, detalhando os seus representantes e até verificando se eles realmente estão trabalhando! Por exemplo, esperamos que os vereadores da *Comissão de Agricultura e Pecuária* tenham mais ementas relacionadas à projetos Rurais do que a Serviços Urbanos, não acha?! E tanta comissão tem que servir pra alguma coisa!
 
-Número de vereadores por município e em Campina Grande
-------------------------------------------------------
+|   Id| Comissão                                                                                  |
+|----:|:------------------------------------------------------------------------------------------|
+|    1| Comissão Constituição, Justiça e Redação                                                  |
+|    2| Comissão de Agricultura e Pecuária                                                        |
+|    3| Comissão de Ciência, Tecnologia, Inovação, Comunicação e Informática                      |
+|    4| Comissão de Defesa dos Direitos da Mulher, Idoso, da Criança e do Adolescente             |
+|    5| Comissão de Desenvolvimento Econômico, Indústria e Comércio                               |
+|    6| Comissão de Direitos Humanos, Defesa do Consumidor, do Contribuinte e do Servidor Público |
+|    7| Comissão de Educação, Esporte e Turismo                                                   |
+|    8| Comissão de Finanças, Orçamento, Fiscalização Financeira e Controle                       |
+|    9| Comissão de Meio Ambiente e Recursos Hídricos Convivência e Sustentabilidade do Semiárido |
+|   10| Comissão de Obras, Planejamento, Infraestrutura e Habitação                               |
+|   11| Comissão de Saúde e Bem Estar Social                                                      |
+|   12| Comissão de Segurança Pública, Defesa Social e Prevenção as Drogas                        |
+|   13| Comissão de Transporte e Mobilidade Urbana                                                |
 
-A Câmara CG realizou um aumento sensível no número de vereadores quando comparamos a 15ª com a 16ª Legislatura, passando de 16 para 23 vereadores. A explicação para a mudança na [EMENDA CONSTITUCIONAL Nº 58, DE 23 DE SETEMBRO DE 2009](http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc58.htm) pode ser encontrada no documento [FIXAÇÃO DO NÚMERO DE VEREADORES PELOS MUNICÍPIOS](http://www2.camara.leg.br/documentos-e-pesquisa/publicacoes/estnottec/areas-da-conle/tema6/2010_10930.pdf) disponibilizado pela Câmara Federal:
+Pra fechar, por que a câmara tem 23 vereadores? É assim em todo o país?
+-----------------------------------------------------------------------
 
-A Emenda mudou o Artigo 29 que diz:
+O tamanho da população da cidade define a quantidade de vereadores de sua Câmara. Campina Grande tem **385.213 habitantes** (pelo Censo de 2010), sendo assim ela encaixa-se na faixa de 300.000 até 450.000, tendo obrigatoriamente **23 vereadores**. Isso tudo está definido na Constituição Federal Brasileira Artigo 29-A!
 
-    Art. 29. O Município reger-se-á por lei orgânica, votada em dois turnos, com o interstício mínimo de dez dias, e aprovada por dois terços dos membros da Câmara Municipal, que a promulgará, atendidos os princípios estabelecidos nesta Constituição, na Constituição do respectivo Estado e os seguintes preceitos:
-    ........
+Mas seria bom se tivesse sido sempre assim! Até 2009 tudo era diferente, a regra era bem mais simplista e por isso dava margem pra muitas interpretações. Ela dizia que municípios como Campina Grande que tem até 1 Milhão de habitantes, podem ter no mínimo 9 e no máximo 21 vereadores! Campina tinha 16, o que era um cálculo razoável para o nosso tamanho, mas pelo Brasil a fora encontrávamos cidades com menos de 100 mil pessoas e 21 vereadores! É isso que resulta dar liberdade pra quem ainda não sabe usá-la... Então o que fizeram, em setembro de 2009 mudaram a lei, ou melhor, emendaram ela (jargão da área), e fizeram a que vigora hoje.
 
-Mais especificamente o Inciso IV, que no formato antigo dizia:
+No final da história, Campina ganhou 7 vereadores num passe de mágica! Por isso, mais uma vez ressalto a importância de nosso papel na fiscalização do trabalho realizado tanto em termos de quantidade quanto em termos de qualidade! Afinal, tudo sai de nosso bolso e dando errado quem é que vai pagar????
 
-    IV - número de Vereadores proporcional à população do Município, observados os seguintes limites:
-      a) mínimo de nove e máximo de vinte e um nos Municípios de até um milhão de habitantes;
-      b) mínimo de trinta e três e máximo de quarenta e um nos Municípios de mais de um milhão e menos de cinco milhões de habitantes;
-      c) mínimo de quarenta e dois e máximo de cinqüenta e cinco nos Municípios de mais de cinco milhões de habitantes;
+**Próximo Post**: [Quanto Ganham nossos Vereadores?](quanto_ganham.md)
 
-E foi modificado para o seguinte:
+------------------------------------------------------------------------
 
-    IV - para a composição das Câmaras Municipais, será observado o limite máximo de:
-    a) 9 (nove) Vereadores, nos Municípios de até 15.000 (quinze mil) habitantes;
-    b) 11 (onze) Vereadores, nos Municípios de mais de 15.000 (quinze mil) habitantes e de até 30.000 (trinta mil) habitantes;
-    c) 13 (treze) Vereadores, nos Municípios com mais de 30.000 (trinta mil) habitantes e de até 50.000 (cinquenta mil) habitantes;
-    d) 15 (quinze) Vereadores, nos Municípios de mais de 50.000 (cinquenta mil) habitantes e de até 80.000 (oitenta mil) habitantes;
-    e) 17 (dezessete) Vereadores, nos Municípios de mais de 80.000 (oitenta mil) habitantes e de até 120.000 (cento e vinte mil) habitantes;
-    f) 19 (dezenove) Vereadores, nos Municípios de mais de 120.000 (cento e vinte mil) habitantes e de até 160.000 (cento sessenta mil) habitantes;
-    g) 21 (vinte e um) Vereadores, nos Municípios de mais de 160.000 (cento e sessenta mil) habitantes e de até 300.000 (trezentos mil) habitantes;
-    h) 23 (vinte e três) Vereadores, nos Municípios de mais de 300.000 (trezentos mil) habitantes e de até 450.000 (quatrocentos e cinquenta mil) habitantes;
-    i) 25 (vinte e cinco) Vereadores, nos Municípios de mais de 450.000 (quatrocentos e cinquenta mil) habitantes e de até 600.000 (seiscentos mil) habitantes;
-    j) 27 (vinte e sete) Vereadores, nos Municípios de mais de 600.000 (seiscentos mil) habitantes e de até 750.000 (setecentos cinquenta mil) habitantes;
-    k) 29 (vinte e nove) Vereadores, nos Municípios de mais de 750.000 (setecentos e cinquenta mil) habitantes e de até 900.000 (novecentos mil) habitantes;
-    l) 31 (trinta e um) Vereadores, nos Municípios de mais de 900.000 (novecentos mil) habitantes e de até 1.050.000 (um milhão e cinquenta mil) habitantes;
-    m) 33 (trinta e três) Vereadores, nos Municípios de mais de 1.050.000 (um milhão e cinquenta mil) habitantes e de até 1.200.000 (um milhão e duzentos mil) habitantes;
-    n) 35 (trinta e cinco) Vereadores, nos Municípios de mais de 1.200.000 (um milhão e duzentos mil) habitantes e de até 1.350.000 (um milhão e trezentos e
-    cinquenta mil) habitantes;
-    o) 37 (trinta e sete) Vereadores, nos Municípios de 1.350.000 (um milhão e trezentos e cinquenta mil) habitantes e de até 1.500.000 (um milhão e quinhentos
-    mil) habitantes;
-    p) 39 (trinta e nove) Vereadores, nos Municípios de mais de 1.500.000 (um milhão e quinhentos mil) habitantes e de até 1.800.000 (um milhão e oitocentos mil) habitantes;
-    q) 41 (quarenta e um) Vereadores, nos Municípios de mais de 1.800.000 (um milhão e oitocentos mil) habitantes e de até 2.400.000 (dois milhões e quatrocentos
-    mil) habitantes;
-    r) 43 (quarenta e três) Vereadores, nos Municípios de mais de 2.400.000 (dois milhões e quatrocentos mil) habitantes e de até 3.000.000 (três milhões) de habitantes;
-    s) 45 (quarenta e cinco) Vereadores, nos Municípios de mais de 3.000.000 (três milhões) de habitantes e de até 4.000.000 (quatro milhões) de habitantes;
-    t) 47 (quarenta e sete) Vereadores, nos Municípios de mais de 4.000.000 (quatro milhões) de habitantes e de até 5.000.000 (cinco milhões) de habitantes;
-    u) 49 (quarenta e nove) Vereadores, nos Municípios de mais de 5.000.000 (cinco milhões) de habitantes e de até 6.000.000 (seis milhões) de habitantes;
-    v) 51 (cinquenta e um) Vereadores, nos Municípios de mais de 6.000.000 (seis milhões) de habitantes e de até 7.000.000 (sete milhões) de habitantes;
-    w) 53 (cinquenta e três) Vereadores, nos Municípios de mais de 7.000.000 (sete milhões) de habitantes e de até 8.000.000 (oito milhões) de habitantes; e
-    x) 55 (cinquenta e cinco) Vereadores, nos Municípios de mais de 8.000.000 (oito milhões) de habitantes;
+### Mais info?
 
-A População de Campina Grande no Censo de 2000 foi de **355.331 habitantes**, no entanto, ao repetir-se a contagem no Censo de 2010 esse número passou para **385.213 habitantes**.
-
-Em 2008 a câmara decidira que teria **16 vagas** de acordo com o ANTIGO inciso IV da constituição. Já em 2011 a câmara valendo-se da NOVA emenda promulgada em 2009 e do novo Censo de 2010 aumentou esse número para **23 vagas**.
+-   [Regimento Interno da CMCG](https://www.campinagrande.pb.leg.br/wp-content/uploads/2014/03/REGIMENTO-INTERNO-CMCG-ATUALIZADO.pdf)
+-   Emenda da Constituição: [EMENDA CONSTITUCIONAL Nº 58, DE 23 DE SETEMBRO DE 2009](http://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc58.htm)
+-   Análise do excesso de liberdade da lei anterior publicada pela Câmara Federal: [FIXAÇÃO DO NÚMERO DE VEREADORES PELOS MUNICÍPIOS](http://www2.camara.leg.br/documentos-e-pesquisa/publicacoes/estnottec/areas-da-conle/tema6/2010_10930.pdf)
 
 ------------------------------------------------------------------------
