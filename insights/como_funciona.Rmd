@@ -19,7 +19,7 @@ A nossa câmara é composta atualmente por **23 vereadores** responsáveis princ
 
 Apesar de escolhermos 23 vereadores, os **13** candidatos com mais votos dentre os demais compõem a lista de **suplentes**, ou substitutos. Eles são escolhidos para tomar posse temporária ou definitivamente em casos de afastamento de algum dos 23. Em Campina Grande, por obra do "acaso", todos os 13 suplentes tomaram posse pelo menos uma vez durante este último mandato... 
 
-Pra começarmos bem, vamos conhecê-los todos, pela foto é melhor porque fixamos mais. E lembramos dos seus feitos (e desfeitos) caso apareçam na TV, propaganda, ou na rua, quem sabe?  
+Pra começarmos bem, vamos conhecê-los todos, pela foto é melhor porque fixamos mais. E lembramos dos seus feitos (e desfeitos) caso apareçam na propaganda, na rua, ou na Câmara quem sabe?  
 
 ### Vereadores Eleitos
 
@@ -65,7 +65,7 @@ data.frame(Id = 1:length(comissoes),
 
 ## Pra fechar... Por que a câmara tem 23 vereadores? É assim em todo o país?
 
-O tamanho da população da cidade define a quantidade de vereadores de sua Câmara. Campina Grande tem **385.213 habitantes** (pelo Censo de 2010), sendo assim ela encaixa-se na faixa de 300.000 até 450.000 definida pela Constituição Federal (Artigo 29-A), tendo assim obrigatoriamente **23 vereadores**. 
+O tamanho da população da cidade define a quantidade de vereadores de sua Câmara. Campina Grande tem **385.213 habitantes** (pelo [Censo de 2010](http://www.ibge.gov.br/home/estatistica/populacao/censo2010/)), sendo assim ela encaixa-se na faixa de 300.000 até 450.000 definida pela Constituição Federal (Artigo 29-A), tendo assim obrigatoriamente **23 vereadores**. 
 
 Mas não foi sempre assim! Até 2009 tudo era diferente, as regras eram bem mais simples, definiam quantidades mínimas e máximas de vereadores, por exemplo, ela dizia que municípios como Campina Grande, que tem menos de 1 Milhão de habitantes, podem ter no mínimo 9 e no máximo 21 vereadores! Ai já se viu né?! Campina tinha 16, uma quantidade razoável para o nosso tamanho, mas pelo Brasil a fora tinha cidades bem menores que Campina tendo 21 vereadores! É isso que resulta dar  liberdade pra quem ainda não sabe usá-la... É uma pena, mas essa é a nossa condição. Então, em Setembro de 2009 mudaram a lei, ou melhor, emendaram ela (jargão da área), e fizeram a que vigora hoje, que obriga as cidades a terem um número X dependendo do nº de habitantes. 
 
