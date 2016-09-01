@@ -9,7 +9,7 @@ A nossa câmara é composta atualmente por **23 vereadores** responsáveis princ
 
 Apesar de escolhermos 23 vereadores, os **13** candidatos com mais votos dentre os demais compõem a lista de **suplentes**, ou substitutos. Eles são escolhidos para tomar posse temporária ou definitivamente em casos de afastamento de algum dos 23. Em Campina Grande, por obra do "acaso", todos os 13 suplentes tomaram posse pelo menos uma vez durante este último mandato...
 
-Pra começarmos bem, vamos conhecê-los todos, pela foto é melhor porque fixamos mais. E lembramos dos seus feitos (e desfeitos) caso apareçam na rua, TV, propaganda, ou na urna, quem sabe?
+Pra começarmos bem, vamos conhecê-los todos, pela foto é melhor porque fixamos mais. E lembramos dos seus feitos (e desfeitos) caso apareçam na TV, propaganda, ou na rua, quem sabe?
 
 ### Vereadores Eleitos
 
