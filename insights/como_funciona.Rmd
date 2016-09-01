@@ -15,15 +15,13 @@ source("0_utils.R")
 
 ## Conhecendo a Câmara (Mandato 2013 - 2016)
 
-A nossa câmara é composta atualmente por **23 vereadores** responsáveis pelo poder legislativo municipal e também por instruir e fiscalizar o executivo, ou seja, representado pelo prefeito. Essas atribuições fazem deles peças chaves no concerto municipal e por isso, nosso voto é suma importância para a melhoria da qualidade de vida de Campina Grande.
+A nossa câmara é composta atualmente por **23 vereadores** responsáveis principalmente pelo poder legislativo municipal e por instruir e fiscalizar o executivo, ou seja, representado pelo prefeito. Essas atribuições fazem deles peças chaves no concerto municipal e, por isso, nosso voto é de suma importância para a melhoria da qualidade de vida de Campina Grande.
 
-O mandato dos vereadores é de **4 anos**, no entanto, por lei eles podem ter até 3 meses de férias a cada ano! Ou seja, em um mandato de 4 anos, eles só precisam trabalhar 3! Mas, para amenizar um pouco a Câmara de Campina Grande definiu em seu regimento que eles terão "apenas" **70 dias de férias**, de 23/12 à 10/02 e 20/06 à 10/07, não podiam deixar de curtir o São João obviamente...
+Apesar de escolhermos 23 vereadores, os **13** candidatos com mais votos dentre os demais compõem a lista de **suplentes**, ou substitutos. Eles são escolhidos para tomar posse temporária ou definitivamente em casos de afastamento de algum dos 23. Em Campina Grande, por obra do "acaso", todos os 13 suplentes tomaram posse pelo menos uma vez durante este último mandato... 
 
-Então, apesar de termos 23 vereadores, a eleição também definiu uma lista de **13 suplentes**, ou substitutos, que podem tomar posse em casos de afastamento de algum dos 23 (seguindo algumas regras, voltamos a esse tema em posts futuros). Em Campina Grande, por obra do "acaso" todos os 13 tomaram posse pelo menos uma vez durante este último mandato. 
+Pra começarmos bem, vamos conhecê-los todos, pela foto é melhor porque fixamos mais. E lembramos dos seus feitos (e desfeitos) caso apareçam na rua, TV, propaganda, ou na urna, quem sabe?  
 
-Para fixarmos melhor, colamos suas fotos aqui. Nada de propaganda, mas vamos nos acostumando com o rosto deles pra podermos lembrar dos seus feitos (e desfeitos) na hora que aparecerem nas propagandas! Vamos seguindo, temos muito a conversar. =)
-
-<!-- ### Vereadores Eleitos -->
+### Vereadores Eleitos
 
 ```{r, results='asis'}
 vereadores_eleitos <- read_csv("files/mandato_2012_vereadores_eleitos_img.csv")
@@ -40,7 +38,7 @@ kable(vereadores_suplentes)
 ```
 
 ### Mesa Diretora
-Logo no início do mandato tem-se a votação da mesa diretora para o primeio biênio do mandato, depois de 2 anos tem outra eleição. Colocamos abaixo os nomes e seus cargos, vamos lembrar desses nomes porque eles são os principais representantes da Câmara, em especial os presidentes... 
+A mesa diretora tem um importante papel na casa, como toda organização precisa de alguém que lidere, precisa de tesouraria e de secretaria. Na maioria dos casos escolhem-se aqueles com mais experiência na Câmara, como é o caso de *Pimentel Filho* que já vai no seu sétimo mandato consecutivo. A mesa é eleita duas vezes no mandato, logo no início, fica dois anos lá e depois elegem de novo. Abaixo estão as duas mesas diretoras desse mandato. 
 
 **Mesa Diretora - Biênio 2013-2014**
 ```{r}
@@ -55,7 +53,7 @@ kable(mesa_diretora2)
 ```
 
 ### Comissões Técnicas
-Para se organizar melhor as câmaras definem *comissões técnicas* que se especializam em assuntos específicos. Abaixo listamos as **13 comissões** da nossa câmara. Voltaremos a esse tema mais a frente, detalhando os seus representantes e até verificando se eles realmente estão trabalhando! Por exemplo, esperamos que os vereadores da *Comissão de Agricultura e Pecuária* tenham mais ementas relacionadas à projetos Rurais do que a Serviços Urbanos, não acha?! E tanta comissão tem que servir pra alguma coisa!
+Para se organizar melhor as câmaras definem *comissões técnicas* que se especializam em assuntos específicos. Abaixo listamos as **13 comissões** da nossa câmara. Analisaremos melhor as comissões mais a frente pra saber se eles realmente estão trabalhando! Mas de antemão, já esperamos minimimamente que os vereadores da *Comissão de Agricultura e Pecuária*, por exemplo, devem ter mais propostas relacionadas a projetos rurais do que a Serviços Urbanos, não acha?! E em um segundo moemnto, podemos validar até a relevância dessas ementas.
 
 ```{r}
 comissoes_df <- read_csv("files/legislatura_16_comissoes_tecnicas.csv")
@@ -65,13 +63,15 @@ data.frame(Id = 1:length(comissoes),
     kable()
 ```
 
-## Pra fechar, por que a câmara tem 23 vereadores? É assim em todo o país?
+## Pra fechar... Por que a câmara tem 23 vereadores? É assim em todo o país?
 
-O tamanho da população da cidade define a quantidade de vereadores de sua Câmara. Campina Grande tem **385.213 habitantes** (pelo Censo de 2010), sendo assim ela encaixa-se na faixa de 300.000 até 450.000, tendo obrigatoriamente **23 vereadores**. Isso tudo está definido na Constituição Federal Brasileira Artigo 29-A! 
+O tamanho da população da cidade define a quantidade de vereadores de sua Câmara. Campina Grande tem **385.213 habitantes** (pelo Censo de 2010), sendo assim ela encaixa-se na faixa de 300.000 até 450.000 definida pela Constituição Federal (Artigo 29-A), tendo assim obrigatoriamente **23 vereadores**. 
 
-Mas seria bom se tivesse sido sempre assim! Até 2009 tudo era diferente, a regra era bem mais simplista e por isso dava margem pra muitas interpretações. Ela dizia que municípios como Campina Grande que tem até 1 Milhão de habitantes, podem ter no mínimo 9 e no máximo 21 vereadores! Campina tinha 16, o que era um cálculo razoável para o nosso tamanho, mas pelo Brasil a fora encontrávamos cidades com menos de 100 mil pessoas e 21 vereadores! É isso que resulta dar  liberdade pra quem ainda não sabe usá-la... Então o que fizeram, em setembro de 2009 mudaram a lei, ou melhor, emendaram ela (jargão da área), e fizeram a que vigora hoje. 
+Mas não foi sempre assim! Até 2009 tudo era diferente, as regras eram bem mais simples, definiam quantidades mínimas e máximas de vereadores, por exemplo, ela dizia que municípios como Campina Grande, que tem menos de 1 Milhão de habitantes, podem ter no mínimo 9 e no máximo 21 vereadores! Ai já se viu né?! Campina tinha 16, uma quantidade razoável para o nosso tamanho, mas pelo Brasil a fora tinha cidades bem menores que Campina tendo 21 vereadores! É isso que resulta dar  liberdade pra quem ainda não sabe usá-la... É uma pena, mas essa é a nossa condição. Então, em Setembro de 2009 mudaram a lei, ou melhor, emendaram ela (jargão da área), e fizeram a que vigora hoje, que obriga as cidades a terem um número X dependendo do nº de habitantes. 
 
-No final da história, Campina ganhou 7 vereadores num passe de mágica! Por isso, mais uma vez ressalto a importância de nosso papel na fiscalização do trabalho realizado tanto em termos de quantidade quanto em termos de qualidade! Afinal, tudo sai de nosso bolso e dando errado quem é que vai pagar????
+No final da história, Campina ganhou 7 vereadores num passe de mágica! No mandato de 2008 - 2012, tinha 16 e nas eleições de 2012 já votamos em 23! E eu lhe pergunto, o que foi que nós ganhamos com isso? Se ganhamos não notamos!
+
+Por essas e outras ressalto a importância de nosso papel na fiscalização do trabalho dos políticos, tanto pra sabermos o que eles estão fazendo como pra fiscalizar a qualidade do que estão fazendo! Afinal, tudo sai de nosso bolso e dando errado quem é que vai pagar???
 
 **Próximo Post**: [Quanto Ganham nossos Vereadores?](quanto_ganham.md)
 
