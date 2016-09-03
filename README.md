@@ -7,9 +7,10 @@ Nosso objetivo aqui é **informar**, pura e simplesmente informar! Hoje em dia i
 ## Posts
 1. [Como funciona a Câmara de Campina Grande?](insights/como_funciona.md) 
 2. [Quanto ganham nossos vereadores?](insights/quanto_ganham.md)
-4. [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md) (em revisão)
-5. [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md) (em revisão)
-6. [Meu Vereador? Qual a sua especialidade?*](insights/vereador_qualespecialidade.html) (em revisão)
+3. Férias e Fôlego? Um demais e outro de menos! (em construção)
+4. Partidos Temáticos (em construção)
+5. Partidos: Eficiência vs. Manejos (em construção)
+6. Avaliando as Comissões Temáticas (em construção)
 
 As páginas com * possuem recursos interativos não visualizáveis diretamente aqui no site. Para visualizá-los faça o download (clicando no nome *Download* dentro da página) e abra o arquivo no Browser normalmente.
  
