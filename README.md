@@ -6,13 +6,10 @@ Nosso objetivo aqui é **informar**, pura e simplesmente informar! Hoje em dia i
 
 ## Posts
 1. [Como funciona a Câmara de Campina Grande?](insights/como_funciona.md) 
-2. [Quanto ganham nossos vereadores?](insights/quanto_ganham.md) (em revisão)
-3. [Temáticas Parlamentares](insights/tematicas_parlamentares.md) (em revisão)
-4. [Trocando em Miúdos - Temáticas Parlamentares](insights/temas_emdetalhes.md) (em revisão)
-5. [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md) (em revisão)
-6. [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md) (em revisão)
-7. [Meu Vereador? Qual a sua especialidade?*](insights/vereador_qualespecialidade.html) (em revisão)
-8. [Reeleições](insights/reeleicoes.md) (em construção)
+2. [Quanto ganham nossos vereadores?](insights/quanto_ganham.md)
+4. [O tempo passa mas os temas se repetem...](insights/temas_no_tempo.md) (em revisão)
+5. [Meu Vereador? Explique-me por favor...](insights/vereador_expliqueme.md) (em revisão)
+6. [Meu Vereador? Qual a sua especialidade?*](insights/vereador_qualespecialidade.html) (em revisão)
 
 As páginas com * possuem recursos interativos não visualizáveis diretamente aqui no site. Para visualizá-los faça o download (clicando no nome *Download* dentro da página) e abra o arquivo no Browser normalmente.
  

@@ -38,7 +38,7 @@ Expomos abaixo a quantidade de ementas aprovadas por cada governo durante seus m
 
 O que acaba impactando negativamente no rendimento das ementas. Os meses de Janeiro e Fevereiro são os que de fato mais sofrem esse impacto, Junho e Julho tendem a ter menos ementas mas isso não é regra geral.
 
-```{r ementas_per_govern, echo = FALSE}
+```{r ementas_time_per_govern, echo = FALSE}
 ggplot(approved_ementas, aes(x = published_month, fill = govern)) +
   geom_bar() +
   scale_x_datetime(date_labels = "%m/%y", date_breaks = "3 months") +
